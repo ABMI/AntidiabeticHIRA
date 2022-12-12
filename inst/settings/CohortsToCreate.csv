@@ -1,0 +1,57 @@
+atlasId,atlasName,cohortId,name
+2096,[JJH] T2DM with SGLT-2i new user,2096,JJH_T2DM_with_SGLT2i_new_user
+2082,[JJH] T2DM with DPP-4i new user,2082,JJH_T2DM_with_DPP4i_new_user
+2175,[JJH] Cancer occurrence,2175,JJH_Cancer_occurrence
+2176,[JJH] All cause mortality,2176,JJH_All_cause_mortality
+2177,[JJH] Heart failure hospitalization,2177,JJH_Heart_failure_hospitalization
+2179,[JJH] 3-point MACE (LEGEND-T2DM),2179,JJH_3point_MACE_LEGENDT2DM
+2180,[JJH] 4-point MACE (LEGEND-T2DM),2180,JJH_4point_MACE_LEGENDT2DM
+2207,[JJH] cololectal cancer occurrence,2207,JJH_cololectal_cancer_occurrence
+2208,[JJH] Lung cancer occurrence,2208,JJH_Lung_cancer_occurrence
+2209,[JJH] Liver cancer occurrence,2209,JJH_Liver_cancer_occurrence
+2210,[JJH] breast cancer occurrence,2210,JJH_breast_cancer_occurrence
+2211,[JJH] stomach cancer occurrence,2211,JJH_stomach_cancer_occurrence
+2212,[JJH] Bladder cancer occurrence,2212,JJH_Bladder_cancer_occurrence
+2213,[JJH] Kidney cancer occurrence,2213,JJH_Kidney_cancer_occurrence
+2215,[JJH] prostate cancer occurrence,2215,JJH_prostate_cancer_occurrence
+2236,[JJH] myeoloma occurrence,2236,JJH_myeoloma_occurrence
+2265,[JJH] ovarian cancer,2265,JJH_ovarian_cancer
+2266,[JJH] Urinary tract infection_safety,2266,JJH_Urinary_tract_infection_safety
+2267,[JJH] Genital infection,2267,JJH_Genital_infection
+2268,[JJH] Diabetic ketoacidosis_safety,2268,JJH_Diabetic_ketoacidosis_safety
+2269,[JJH] angioedema_safety,2269,JJH_angioedema_safety
+2270,[JJH] SJS_safety,2270,JJH_SJS_safety
+2271,[JJH] Amputation_safety,2271,JJH_Amputation_safety
+2272,[JJH] Pancreatitis_safety,2272,JJH_Pancreatitis_safety
+2274,[JJH] Acute kidney injury_safety,2274,JJH_Acute_kidney_injury_safety
+2275,[JJH] fatigue_safety,2275,JJH_fatigue_safety
+2485,[JJH] acute renal failure,2485,JJH_acute_renal_failure
+2486,[JJH] chronic renal failure,2486,JJH_chronic_renal_failure
+2487,[JJH] end stage renal disease,2487,JJH_end_stage_renal_disease
+2488,[JJH] Hemodialysis,2488,JJH_Hemodialysis
+2489,[JJH] Kidney transplantation,2489,JJH_Kidney_transplantation
+2491,[JJH] genital infection_safety,2491,JJH_genital_infection_safety
+2492,[JJH] biliary disease_safety,2492,JJH_biliary_disease_safety
+2493,[JJH] Bone fracture_safety,2493,JJH_Bone_fracture_safety
+2494,[JJH] Nasopharyngitis_safety,2494,JJH_Nasopharyngitis_safety
+2495,[JJH] gallbladder disease,2495,JJH_gallbladder_disease
+2498,[JJH] hypovolemia_safety,2498,JJH_hypovolemia_safety
+2499,[JJH] hypoglycemia_safety,2499,JJH_hypoglycemia_safety
+2500,[JJH] hyperkalemia_safety,2500,JJH_hyperkalemia_safety
+2501,[JJH] hypotension_safety,2501,JJH_hypotension_safety
+2502,[JJH] asthenia safety,2502,JJH_asthenia_safety
+2503,[JJH] cholecystitis_safety,2503,JJH_cholecystitis_safety
+2504,[JJH] cholelithiasis safety,2504,JJH_cholelithiasis_safety
+2483,[JJH] T2DM with SGLT-2i new user + cardiac risk (3-MACE),2483,JJH_T2DM_with_SGLT2i_new_user__cardiac_risk_3MACE
+2484,[JJH] T2DM with DPP-4 new user + cardiac risk (3-MACE),2484,JJH_T2DM_with_DPP4_new_user__cardiac_risk_3MACE
+2481,[JJH] T2DM with SGLT-2i new user + cardiac risk (3-MACE + renal failure),2481,JJH_T2DM_with_SGLT2i_new_user__cardiac_risk_3MACE__renal_failure
+2482,[JJH] T2DM with DPP-4 new user + cardiac risk (3-MACE + renal failure),2482,JJH_T2DM_with_DPP4_new_user__cardiac_risk_3MACE__renal_failure
+2477,[JJH] T2DM with SGLT-2i new user + cardiac risk (4-MACE),2477,JJH_T2DM_with_SGLT2i_new_user__cardiac_risk_4MACE
+2478,[JJH] T2DM with DPP-4 new user + cardiac risk (4-MACE),2478,JJH_T2DM_with_DPP4_new_user__cardiac_risk_4MACE
+2479,[JJH] T2DM with SGLT-2i new user + cardiac risk (4-MACE + renal failure),2479,JJH_T2DM_with_SGLT2i_new_user__cardiac_risk_4MACE__renal_failure
+2480,[JJH] T2DM with DPP-4 new user + cardiac risk (4-MACE + renal failure),2480,JJH_T2DM_with_DPP4_new_user__cardiac_risk_4MACE__renal_failure
+2260,[JJH] T2DM with SGLT-2i new user + CKD stage under 4,2260,JJH_T2DM_with_SGLT2i_new_user__CKD_stage_under_4
+2262,[JJH] T2DM with DPP-4i new user + CKD stage under 4,2262,JJH_T2DM_with_DPP4i_new_user__CKD_stage_under_4
+2490,[JJH] hospitalization by renal failure,2490,JJH_hospitalization_by_renal_failure
+2261,[JJH] T2DM with SGLT-2i new user + CKD stage over 4,2261,JJH_T2DM_with_SGLT2i_new_user__CKD_stage_over_4
+2263,[JJH] T2DM with DPP-4i new user + CKD stage over 4,2263,JJH_T2DM_with_DPP4i_new_user__CKD_stage_over_4

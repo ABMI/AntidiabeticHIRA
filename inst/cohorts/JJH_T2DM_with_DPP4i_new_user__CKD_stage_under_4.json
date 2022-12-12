@@ -1,0 +1,2297 @@
+{
+  "ExpressionLimit": {"Type": "First"},
+  "CollapseSettings": {
+    "CollapseType": "ERA",
+    "EraPad": 0
+  },
+  "CensorWindow": {
+    "StartDate": null,
+    "EndDate": null
+  },
+  "ConceptSets": [
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42961500,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4687995",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "gemigliptin 50 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 715821,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BH52",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "gemigliptin and rosuvastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40239218,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1100702",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "linagliptin 5 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21600786,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BH03",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "saxagliptin; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40166041,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "858036",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "saxagliptin 5 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21600784,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BH01",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "sitagliptin; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19125045,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "665038",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "sitagliptin 25 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19125049,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "665042",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "sitagliptin 50 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19125041,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "665033",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "sitagliptin 100 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19129179,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "757712",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "vildagliptin 50 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[JJH] DPP-4 inh alone",
+      "id": 0
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 201826,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "44054006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Type 2 diabetes mellitus",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4193704,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "313436004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Type 2 diabetes mellitus without complication",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[PCH] T2DM",
+      "id": 1
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21600747,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BA02",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "metformin; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19106521,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "428759",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "metformin 250 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40164897,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "861004",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "metformin hydrochloride 1000 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40164929,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "861007",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "metformin hydrochloride 500 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40164939,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "860984",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "metformin hydrochloride 750 MG Extended Release Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40164946,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "861010",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "metformin hydrochloride 850 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40220371,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1807888",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "Modified 24 HR metformin hydrochloride 1000 MG Extended Release Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40220376,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1807917",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "Osmotic 24 HR metformin hydrochloride 500 MG Extended Release Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[JJH] Metformin alone",
+      "id": 2
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43534749,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BD13",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "metformin and alogliptin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42961487,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4687983",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "gemigliptin 25 MG / Metformin 500 MG Extended Release Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42961490,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4687986",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "gemigliptin 50 MG / Metformin 1000 MG Extended Release Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42961494,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4687989",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "gemigliptin 50 MG / Metformin 500 MG Extended Release Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45893491,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BD18",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "metformin and gemigliptin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42921981,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4648800",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "2 ML Netilmicin 50 MG/ML Injectable Solution",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Quant Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42708086,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1243020",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "linagliptin 2.5 MG / metformin hydrochloride 1000 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42708090,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1243034",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "linagliptin 2.5 MG / metformin hydrochloride 850 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42708088,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1243027",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "linagliptin 2.5 MG / metformin hydrochloride 500 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40251676,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BD10",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "metformin and saxagliptin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40164891,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "861769",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "metformin hydrochloride 1000 MG / sitagliptin 50 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42708172,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1243844",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "metformin hydrochloride 1000 MG / sitagliptin 50 MG Extended Release Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 36887702,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP988910",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "Metformin 850 MG / sitagliptin 50 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40164922,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "861819",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "metformin hydrochloride 500 MG / sitagliptin 50 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42708176,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1243849",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "metformin hydrochloride 500 MG / sitagliptin 50 MG Extended Release Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42708168,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1243834",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "metformin hydrochloride 1000 MG / sitagliptin 100 MG Extended Release Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21081251,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP351542",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "Metformin 850 MG / vildagliptin 50 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21169719,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP351557",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "Metformin 1000 MG / vildagliptin 50 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43267262,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP538342",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "Metformin 500 MG / vildagliptin 50 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[JJH] MET + DPP4",
+      "id": 4
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21600767,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BD02",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "metformin and sulfonylureas",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42953698,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4680254",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "glimepiride 1 MG / Metformin 250 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42953740,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4680295",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "glimepiride 2 MG / Metformin 500 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42953818,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4680372",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "glimepiride 2 MG / Metformin 500 MG Extended Release Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42953917,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4680470",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "glimepiride 1 MG / Metformin 500 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43534751,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BD15",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "metformin and dapagliflozin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1588671,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BD20",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "metformin and empagliflozin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21600782,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BG03",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "pioglitazone; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40165997,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "861748",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "glyburide 2.5 MG / metformin hydrochloride 500 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40166002,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "861753",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "glyburide 5 MG / metformin hydrochloride 500 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21600770,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BD05",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "metformin and pioglitazone",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21600776,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BF01",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "acarbose; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21600774,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BD09",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "pioglitazone and alogliptin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 44785831,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1488569",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "dapagliflozin 10 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42922767,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4649757",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "0.5 ML dulaglutide 1.5 MG/ML Pen Injector",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Quant Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42922959,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4649759",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "0.5 ML dulaglutide 3 MG/ML Pen Injector",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Quant Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45774754,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1545658",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "empagliflozin 10 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1123740,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BK03",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "empagliflozin; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 715887,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BK04",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "ertugliflozin; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19077682,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "310537",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "glyburide 5 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21600758,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BB09",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "gliclazide; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19059797,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "199825",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "gliclazide 80 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19101729,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "389137",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "gliclazide 30 MG Extended Release Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21133671,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP412803",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "Gliclazide 60 MG Extended Release Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1597761,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "199245",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "glimepiride 1 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21600761,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BB12",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "glimepiride; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1597772,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "199246",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "glimepiride 2 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1597758,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "153842",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "glimepiride 3 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1597773,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "199247",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "glimepiride 4 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21600756,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BB07",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "glipizide; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1501756,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10AE54",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "insulin glargine and lixisenatide; systemic",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 715760,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BK05",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "ipragliflozin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42960773,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4687272",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "lobeglitazone 0.415 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21600796,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BX08",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "mitiglinide; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21600791,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BX03",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "nateglinide; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19107110,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "430491",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "nateglinide 90 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1502829,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "311919",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "nateglinide 120 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21600782,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BG03",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "pioglitazone; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1525221,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "317573",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "pioglitazone 15 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21600790,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BX02",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "repaglinide; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21600778,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BF03",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "voglibose; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42961179,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4687677",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "voglibose 0.2 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42961189,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4687687",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "voglibose 0.3 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[JJH] ADD except MET+DPP4 (except met, dpp4, insulin alone)",
+      "id": 5
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43534749,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BD13",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "metformin and alogliptin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42961487,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4687983",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "gemigliptin 25 MG / Metformin 500 MG Extended Release Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42961490,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4687986",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "gemigliptin 50 MG / Metformin 1000 MG Extended Release Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42961494,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4687989",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "gemigliptin 50 MG / Metformin 500 MG Extended Release Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45893491,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BD18",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "metformin and gemigliptin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42921981,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4648800",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "2 ML Netilmicin 50 MG/ML Injectable Solution",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Quant Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42708086,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1243020",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "linagliptin 2.5 MG / metformin hydrochloride 1000 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42708090,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1243034",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "linagliptin 2.5 MG / metformin hydrochloride 850 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42708088,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1243027",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "linagliptin 2.5 MG / metformin hydrochloride 500 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40251676,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BD10",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "metformin and saxagliptin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40164891,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "861769",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "metformin hydrochloride 1000 MG / sitagliptin 50 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42708172,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1243844",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "metformin hydrochloride 1000 MG / sitagliptin 50 MG Extended Release Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 36887702,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP988910",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "Metformin 850 MG / sitagliptin 50 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40164922,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "861819",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "metformin hydrochloride 500 MG / sitagliptin 50 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42708176,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1243849",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "metformin hydrochloride 500 MG / sitagliptin 50 MG Extended Release Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42708168,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1243834",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "metformin hydrochloride 1000 MG / sitagliptin 100 MG Extended Release Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21081251,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP351542",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "Metformin 850 MG / vildagliptin 50 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21169719,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP351557",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "Metformin 1000 MG / vildagliptin 50 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43267262,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP538342",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "Metformin 500 MG / vildagliptin 50 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42961500,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4687995",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "gemigliptin 50 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 715821,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BH52",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "gemigliptin and rosuvastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40239218,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1100702",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "linagliptin 5 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40166041,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "858036",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "saxagliptin 5 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21600784,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BH01",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "sitagliptin; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19125045,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "665038",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "sitagliptin 25 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19125049,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "665042",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "sitagliptin 50 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19125041,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "665033",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "sitagliptin 100 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19129179,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "757712",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "vildagliptin 50 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21600786,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BH03",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "saxagliptin; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        }
+      ]},
+      "name": "[JJH] DPP4 and MET + DPP4",
+      "id": 6
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 443614,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "431855005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Chronic kidney disease stage 1",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 443601,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "431856006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Chronic kidney disease stage 2",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 443597,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "433144002",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Chronic kidney disease stage 3",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        }
+      ]},
+      "name": "[JJH] CKD stage under 4",
+      "id": 7
+    }
+  ],
+  "EndStrategy": {"CustomEra": {
+    "DrugCodesetId": 6,
+    "DaysSupplyOverride": null,
+    "GapDays": 30,
+    "Offset": 30
+  }},
+  "cdmVersionRange": ">=5.0.0",
+  "CensoringCriteria": [{"DrugExposure": {
+    "OccurrenceEndDate": null,
+    "CorrelatedCriteria": null,
+    "DrugSourceConcept": null,
+    "CodesetId": 5,
+    "DrugTypeExclude": false,
+    "Quantity": null,
+    "DrugType": null,
+    "ProviderSpecialty": null,
+    "EffectiveDrugDose": null,
+    "Gender": null,
+    "DaysSupply": null,
+    "DoseUnit": null,
+    "VisitType": null,
+    "Refills": null,
+    "First": null,
+    "OccurrenceStartDate": null,
+    "RouteConcept": null,
+    "StopReason": null,
+    "LotNumber": null,
+    "Age": null
+  }}],
+  "QualifiedLimit": {"Type": "First"},
+  "InclusionRules": [
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": null,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 0,
+              "Coeff": 1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"ConditionOccurrence": {
+            "OccurrenceEndDate": null,
+            "CorrelatedCriteria": null,
+            "ConditionTypeExclude": false,
+            "CodesetId": 1,
+            "ProviderSpecialty": null,
+            "Gender": null,
+            "VisitType": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "ConditionType": null,
+            "ConditionSourceConcept": null,
+            "ConditionStatus": null,
+            "StopReason": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 2,
+            "CountColumn": null,
+            "IsDistinct": false,
+            "Count": 1
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "T2DM",
+      "description": null
+    },
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": null,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 0,
+              "Coeff": 1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"DrugExposure": {
+            "OccurrenceEndDate": null,
+            "CorrelatedCriteria": null,
+            "DrugSourceConcept": null,
+            "CodesetId": 5,
+            "DrugTypeExclude": false,
+            "Quantity": null,
+            "DrugType": null,
+            "ProviderSpecialty": null,
+            "EffectiveDrugDose": null,
+            "Gender": null,
+            "DaysSupply": null,
+            "DoseUnit": null,
+            "VisitType": null,
+            "Refills": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "RouteConcept": null,
+            "StopReason": null,
+            "LotNumber": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 0,
+            "CountColumn": null,
+            "IsDistinct": false,
+            "Count": 0
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "No other ADD ",
+      "description": null
+    },
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": null,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": null,
+              "Coeff": 1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"ConditionOccurrence": {
+            "OccurrenceEndDate": null,
+            "CorrelatedCriteria": null,
+            "ConditionTypeExclude": false,
+            "CodesetId": 7,
+            "ProviderSpecialty": null,
+            "Gender": null,
+            "VisitType": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "ConditionType": null,
+            "ConditionSourceConcept": null,
+            "ConditionStatus": null,
+            "StopReason": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 2,
+            "CountColumn": null,
+            "IsDistinct": false,
+            "Count": 1
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "CKD stage under 4",
+      "description": null
+    }
+  ],
+  "PrimaryCriteria": {
+    "CriteriaList": [
+      {"DrugExposure": {
+        "OccurrenceEndDate": null,
+        "CorrelatedCriteria": {
+          "CriteriaList": [{
+            "RestrictVisit": false,
+            "StartWindow": {
+              "UseEventEnd": false,
+              "Start": {
+                "Days": null,
+                "Coeff": -1
+              },
+              "End": {
+                "Days": 0,
+                "Coeff": 1
+              },
+              "UseIndexEnd": false
+            },
+            "IgnoreObservationPeriod": false,
+            "EndWindow": null,
+            "Criteria": {"DrugExposure": {
+              "OccurrenceEndDate": null,
+              "CorrelatedCriteria": null,
+              "DrugSourceConcept": null,
+              "CodesetId": 2,
+              "DrugTypeExclude": false,
+              "Quantity": null,
+              "DrugType": null,
+              "ProviderSpecialty": null,
+              "EffectiveDrugDose": null,
+              "Gender": null,
+              "DaysSupply": null,
+              "DoseUnit": null,
+              "VisitType": null,
+              "Refills": null,
+              "First": null,
+              "OccurrenceStartDate": null,
+              "RouteConcept": null,
+              "StopReason": null,
+              "LotNumber": null,
+              "Age": null
+            }},
+            "Occurrence": {
+              "Type": 2,
+              "CountColumn": null,
+              "IsDistinct": false,
+              "Count": 1
+            }
+          }],
+          "Type": "ALL",
+          "DemographicCriteriaList": [],
+          "Groups": [],
+          "Count": null
+        },
+        "DrugSourceConcept": null,
+        "CodesetId": 0,
+        "DrugTypeExclude": false,
+        "Quantity": null,
+        "DrugType": null,
+        "ProviderSpecialty": null,
+        "EffectiveDrugDose": null,
+        "Gender": null,
+        "DaysSupply": {
+          "Op": "gte",
+          "Extent": null,
+          "Value": 30
+        },
+        "DoseUnit": null,
+        "VisitType": null,
+        "Refills": null,
+        "First": null,
+        "OccurrenceStartDate": null,
+        "RouteConcept": null,
+        "StopReason": null,
+        "LotNumber": null,
+        "Age": {
+          "Op": "gte",
+          "Extent": null,
+          "Value": 30
+        }
+      }},
+      {"DrugExposure": {
+        "OccurrenceEndDate": null,
+        "CorrelatedCriteria": null,
+        "DrugSourceConcept": null,
+        "CodesetId": 4,
+        "DrugTypeExclude": false,
+        "Quantity": null,
+        "DrugType": null,
+        "ProviderSpecialty": null,
+        "EffectiveDrugDose": null,
+        "Gender": null,
+        "DaysSupply": {
+          "Op": "gte",
+          "Extent": null,
+          "Value": 30
+        },
+        "DoseUnit": null,
+        "VisitType": null,
+        "Refills": null,
+        "First": null,
+        "OccurrenceStartDate": null,
+        "RouteConcept": null,
+        "StopReason": null,
+        "LotNumber": null,
+        "Age": {
+          "Op": "gte",
+          "Extent": null,
+          "Value": 30
+        }
+      }}
+    ],
+    "PrimaryCriteriaLimit": {"Type": "First"},
+    "ObservationWindow": {
+      "PostDays": 0,
+      "PriorDays": 365
+    }
+  }
+}
