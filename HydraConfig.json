@@ -5,11 +5,11 @@
 	"actions":[{
 		"type": "fileNameFindAndReplace",
 		"input": "packageName",
-		"find": "AntidiabeticT2DM"
+		"find": "T2DMantidiabecic"
 	},{
 		"type": "stringFindAndReplace",
 		"input": "packageName",
-		"find": "AntidiabeticT2DM"
+		"find": "T2DMantidiabecic"
 	},{
 		"type": "jsonArrayToCsv",
 		"input": "cohortDefinitions",

@@ -34,7 +34,7 @@ atlasId,atlasName,cohortId,name
 2492,[JJH] biliary disease_safety,2492,JJH_biliary_disease_safety
 2493,[JJH] Bone fracture_safety,2493,JJH_Bone_fracture_safety
 2494,[JJH] Nasopharyngitis_safety,2494,JJH_Nasopharyngitis_safety
-2495,[JJH] gallbladder disease,2495,JJH_gallbladder_disease
+2495,[JJH] gallbladder disease safety,2495,JJH_gallbladder_disease_safety
 2498,[JJH] hypovolemia_safety,2498,JJH_hypovolemia_safety
 2499,[JJH] hypoglycemia_safety,2499,JJH_hypoglycemia_safety
 2500,[JJH] hyperkalemia_safety,2500,JJH_hyperkalemia_safety
