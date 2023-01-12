@@ -184,6 +184,8 @@
           "comparatorId": 2082,
           "includedCovariateConceptIds": [],
           "excludedCovariateConceptIds": [
+            1123627,
+            21600783,
             715760,
             715821,
             715887,
@@ -843,6 +845,8 @@
           "comparatorId": 2484,
           "includedCovariateConceptIds": [],
           "excludedCovariateConceptIds": [
+            1123627,
+            21600783,
             715760,
             715821,
             715887,
@@ -1502,6 +1506,8 @@
           "comparatorId": 2482,
           "includedCovariateConceptIds": [],
           "excludedCovariateConceptIds": [
+            1123627,
+            21600783,
             715760,
             715821,
             715887,
@@ -2161,6 +2167,8 @@
           "comparatorId": 2478,
           "includedCovariateConceptIds": [],
           "excludedCovariateConceptIds": [
+            1123627,
+            21600783,
             715760,
             715821,
             715887,
@@ -2820,6 +2828,8 @@
           "comparatorId": 2480,
           "includedCovariateConceptIds": [],
           "excludedCovariateConceptIds": [
+            1123627,
+            21600783,
             715760,
             715821,
             715887,
@@ -3479,6 +3489,8 @@
           "comparatorId": 2262,
           "includedCovariateConceptIds": [],
           "excludedCovariateConceptIds": [
+            1123627,
+            21600783,
             715760,
             715821,
             715887,
@@ -4100,6 +4112,8 @@
           "comparatorId": 2263,
           "includedCovariateConceptIds": [],
           "excludedCovariateConceptIds": [
+            1123627,
+            21600783,
             715760,
             715821,
             715887,
