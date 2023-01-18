@@ -16,7 +16,7 @@ SELECT 0 as codeset_id, c.concept_id FROM (select distinct I.concept_id FROM
 
 SELECT co.* 
 into #CodeSetData_0
-FROM @cdm_database_schema.condition_occurrence_covid19 co
+FROM @cdm_database_schema.condition_occurrence co
 JOIN #Codesets codesets on ((co.condition_concept_id = codesets.concept_id and codesets.codeset_id = 0));
 
 

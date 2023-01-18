@@ -93,27 +93,27 @@ WHERE E.concept_id is null
 
 SELECT co.* 
 into #CodeSetData_0
-FROM @cdm_database_schema.condition_occurrence_covid19 co
+FROM @cdm_database_schema.condition_occurrence co
 JOIN #Codesets codesets on ((co.condition_concept_id = codesets.concept_id and codesets.codeset_id = 0));
 
 SELECT co.* 
 into #CodeSetData_3
-FROM @cdm_database_schema.condition_occurrence_covid19 co
+FROM @cdm_database_schema.condition_occurrence co
 JOIN #Codesets codesets on ((co.condition_concept_id = codesets.concept_id and codesets.codeset_id = 3));
 
 SELECT co.* 
 into #CodeSetData_4
-FROM @cdm_database_schema.condition_occurrence_covid19 co
+FROM @cdm_database_schema.condition_occurrence co
 JOIN #Codesets codesets on ((co.condition_concept_id = codesets.concept_id and codesets.codeset_id = 4));
 
 SELECT co.* 
 into #CodeSetData_5
-FROM @cdm_database_schema.condition_occurrence_covid19 co
+FROM @cdm_database_schema.condition_occurrence co
 JOIN #Codesets codesets on ((co.condition_concept_id = codesets.concept_id and codesets.codeset_id = 5));
 
 SELECT co.* 
 into #CodeSetData_6
-FROM @cdm_database_schema.condition_occurrence_covid19 co
+FROM @cdm_database_schema.condition_occurrence co
 JOIN #Codesets codesets on ((co.condition_concept_id = codesets.concept_id and codesets.codeset_id = 6));
 
 

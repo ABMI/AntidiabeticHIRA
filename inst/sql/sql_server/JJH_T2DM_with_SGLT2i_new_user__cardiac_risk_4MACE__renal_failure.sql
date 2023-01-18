@@ -176,7 +176,7 @@ UNION  select c.concept_id
 
 SELECT co.* 
 into #CodeSetData_1
-FROM @cdm_database_schema.condition_occurrence_covid19 co
+FROM @cdm_database_schema.condition_occurrence co
 JOIN #Codesets codesets on ((co.condition_concept_id = codesets.concept_id and codesets.codeset_id = 1));
 
 select de.* 
@@ -206,37 +206,37 @@ JOIN #Codesets cs on cs.codeset_id = 10 AND de.drug_concept_id = cs.concept_id;
 
 SELECT co.* 
 into #CodeSetData_13
-FROM @cdm_database_schema.condition_occurrence_covid19 co
+FROM @cdm_database_schema.condition_occurrence co
 JOIN #Codesets codesets on ((co.condition_concept_id = codesets.concept_id and codesets.codeset_id = 13));
 
 SELECT co.* 
 into #CodeSetData_14
-FROM @cdm_database_schema.condition_occurrence_covid19 co
+FROM @cdm_database_schema.condition_occurrence co
 JOIN #Codesets codesets on ((co.condition_concept_id = codesets.concept_id and codesets.codeset_id = 14));
 
 SELECT co.* 
 into #CodeSetData_15
-FROM @cdm_database_schema.condition_occurrence_covid19 co
+FROM @cdm_database_schema.condition_occurrence co
 JOIN #Codesets codesets on ((co.condition_concept_id = codesets.concept_id and codesets.codeset_id = 15));
 
 SELECT co.* 
 into #CodeSetData_16
-FROM @cdm_database_schema.condition_occurrence_covid19 co
+FROM @cdm_database_schema.condition_occurrence co
 JOIN #Codesets codesets on ((co.condition_concept_id = codesets.concept_id and codesets.codeset_id = 16));
 
 SELECT co.* 
 into #CodeSetData_17
-FROM @cdm_database_schema.condition_occurrence_covid19 co
+FROM @cdm_database_schema.condition_occurrence co
 JOIN #Codesets codesets on ((co.condition_concept_id = codesets.concept_id and codesets.codeset_id = 17));
 
 SELECT co.* 
 into #CodeSetData_18
-FROM @cdm_database_schema.condition_occurrence_covid19 co
+FROM @cdm_database_schema.condition_occurrence co
 JOIN #Codesets codesets on ((co.condition_concept_id = codesets.concept_id and codesets.codeset_id = 18));
 
 SELECT co.* 
 into #CodeSetData_19
-FROM @cdm_database_schema.condition_occurrence_covid19 co
+FROM @cdm_database_schema.condition_occurrence co
 JOIN #Codesets codesets on ((co.condition_concept_id = codesets.concept_id and codesets.codeset_id = 19));
 
 with primary_events (event_id, person_id, start_date, end_date, op_start_date, op_end_date, visit_occurrence_id) as

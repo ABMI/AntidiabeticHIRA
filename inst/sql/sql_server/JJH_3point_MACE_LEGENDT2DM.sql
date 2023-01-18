@@ -70,23 +70,23 @@ SELECT 5 as codeset_id, c.concept_id FROM (select distinct I.concept_id FROM
 
 SELECT co.*
 into #CodeSetData_0 
-FROM @cdm_database_schema.condition_occurrence_covid19 co
+FROM @cdm_database_schema.condition_occurrence co
 JOIN #Codesets codesets on ((co.condition_concept_id = codesets.concept_id and codesets.codeset_id = 0));
 
 
 SELECT co.* 
 into #CodeSetData_3
-FROM @cdm_database_schema.condition_occurrence_covid19 co
+FROM @cdm_database_schema.condition_occurrence co
 JOIN #Codesets codesets on ((co.condition_concept_id = codesets.concept_id and codesets.codeset_id = 3));
 
 SELECT co.* 
 into #CodeSetData_4
-FROM @cdm_database_schema.condition_occurrence_covid19 co
+FROM @cdm_database_schema.condition_occurrence co
 JOIN #Codesets codesets on ((co.condition_concept_id = codesets.concept_id and codesets.codeset_id = 4));
 
 SELECT co.* 
 into #CodeSetData_5
-FROM @cdm_database_schema.condition_occurrence_covid19 co
+FROM @cdm_database_schema.condition_occurrence co
 JOIN #Codesets codesets on ((co.condition_concept_id = codesets.concept_id and codesets.codeset_id = 5));
 
 with primary_events (event_id, person_id, start_date, end_date, op_start_date, op_end_date, visit_occurrence_id) as
