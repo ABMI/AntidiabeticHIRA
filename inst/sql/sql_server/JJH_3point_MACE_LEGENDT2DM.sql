@@ -26,7 +26,7 @@ UNION  select c.concept_id
 
 ) E ON I.concept_id = E.concept_id
 WHERE E.concept_id is null
-) C UNION ALL 
+) C UNION
 SELECT 3 as codeset_id, c.concept_id FROM (select distinct I.concept_id FROM
 ( 
   select concept_id from @vocabulary_database_schema.CONCEPT where concept_id in (4048809,321042,442289,4317150,4132309)
@@ -51,7 +51,7 @@ WHERE E.concept_id is null
 ) C UNION ALL 
 SELECT 4 as codeset_id, c.concept_id FROM (select distinct I.concept_id FROM
 ( 
-  select concept_id from @vocabulary_database_schema.CONCEPT where concept_id in (372924,375557,443454,441874)
+  select concept_id from @vocabulary_database_schema.CONCEPT where concept_id in (372924,375557,443454,441874,4111715)
 UNION  select c.concept_id
   from @vocabulary_database_schema.CONCEPT c
   join @vocabulary_database_schema.CONCEPT_ANCESTOR ca on c.concept_id = ca.descendant_concept_id
@@ -63,11 +63,15 @@ UNION  select c.concept_id
 SELECT 5 as codeset_id, c.concept_id FROM (select distinct I.concept_id FROM
 ( 
   select concept_id from @vocabulary_database_schema.CONCEPT where concept_id in (376713,432923,43530727,4148906,439847)
+UNION  select c.concept_id
+  from @vocabulary_database_schema.CONCEPT c
+  join @vocabulary_database_schema.CONCEPT_ANCESTOR ca on c.concept_id = ca.descendant_concept_id
+  and ca.ancestor_concept_id in (439847)
+  and c.invalid_reason is null
 
 ) I
 ) C
 ;
-
 SELECT co.*
 into #CodeSetData_0 
 FROM @cdm_database_schema.condition_occurrence co
@@ -268,7 +272,6 @@ INSERT INTO @target_database_schema.@target_cohort_table (cohort_definition_id, 
 select @target_cohort_id as cohort_definition_id, person_id, start_date, end_date 
 FROM #final_cohort CO
 ;
-
 TRUNCATE TABLE #strategy_ends;
 DROP TABLE #strategy_ends;
 

@@ -316,7 +316,7 @@
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
-          "includeDescendants": false
+          "includeDescendants": true
         }
       ]},
       "name": "[JJH] Intracranial bleed hemorrhagic stroke (LEGEND)",
@@ -384,6 +384,23 @@
             "CONCEPT_CODE": "71444005",
             "VOCABULARY_ID": "SNOMED",
             "CONCEPT_NAME": "Cerebral thrombosis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4111715,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "195231004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Occlusion and stenosis of cerebral arteries, not resulting in cerebral infarction",
             "DOMAIN_ID": "Condition",
             "STANDARD_CONCEPT_CAPTION": "Standard",
             "CONCEPT_CLASS_ID": "Clinical Finding",
@@ -732,10 +749,95 @@
           },
           "includeMapped": false,
           "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43013924,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1368006",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "alogliptin 25 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42960653,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4687152",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "anagliptin 100 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42960599,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4687098",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "teneligliptin 20 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21600787,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BH04",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "alogliptin; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21600785,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BH02",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "vildagliptin; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
         }
       ]},
-      "name": "[JJH] DPP-4 inh alone",
-      "id": 19
+      "name": "[JJH] DPP-4 inh alone_230119",
+      "id": 23
     },
     {
       "expression": {"items": [
@@ -1061,10 +1163,44 @@
           },
           "includeMapped": false,
           "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42960593,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4687092",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "Metformin 1000 MG / teneligliptin 20 MG Extended Release Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21600772,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BD07",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "metformin and sitagliptin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
         }
       ]},
-      "name": "[JJH] MET + DPP4",
-      "id": 20
+      "name": "[JJH] MET + DPP4_230119",
+      "id": 24
     },
     {
       "expression": {"items": [
@@ -1798,10 +1934,95 @@
           },
           "includeMapped": false,
           "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1123609,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BJ03",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "lixisenatide; parenteral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1123633,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BJ01",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "exenatide; parenteral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1123739,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BJ04",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "albiglutide; parenteral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21600750,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BB01",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "glibenclamide; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21600765,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BD",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "Combinations of oral blood glucose lowering drugs",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 4th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
         }
       ]},
-      "name": "[JJH] ADD except MET+DPP4 (except met, dpp4, insulin alone)",
-      "id": 21
+      "name": "[JJH] ADD except MET+DPP4 (except met, dpp4, insulin alone)_230119",
+      "id": 25
     },
     {
       "expression": {"items": [
@@ -2297,14 +2518,133 @@
           },
           "includeMapped": false,
           "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43013924,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1368006",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "alogliptin 25 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42960653,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4687152",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "anagliptin 100 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42960599,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4687098",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "teneligliptin 20 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21600787,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BH04",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "alogliptin; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21600785,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BH02",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "vildagliptin; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42960593,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4687092",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "Metformin 1000 MG / teneligliptin 20 MG Extended Release Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21600772,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BD07",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "metformin and sitagliptin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
         }
       ]},
-      "name": "[JJH] DPP4 and MET + DPP4",
-      "id": 22
+      "name": "[JJH] DPP4 and MET + DPP4_230119",
+      "id": 26
     }
   ],
   "EndStrategy": {"CustomEra": {
-    "DrugCodesetId": 22,
+    "DrugCodesetId": 26,
     "DaysSupplyOverride": null,
     "GapDays": 30,
     "Offset": 30
@@ -2314,7 +2654,7 @@
     "OccurrenceEndDate": null,
     "CorrelatedCriteria": null,
     "DrugSourceConcept": null,
-    "CodesetId": 21,
+    "CodesetId": 25,
     "DrugTypeExclude": false,
     "Quantity": null,
     "DrugType": null,
@@ -2405,7 +2745,7 @@
             "OccurrenceEndDate": null,
             "CorrelatedCriteria": null,
             "DrugSourceConcept": null,
-            "CodesetId": 21,
+            "CodesetId": 25,
             "DrugTypeExclude": false,
             "Quantity": null,
             "DrugType": null,
@@ -2850,7 +3190,7 @@
           "Count": null
         },
         "DrugSourceConcept": null,
-        "CodesetId": 19,
+        "CodesetId": 23,
         "DrugTypeExclude": false,
         "Quantity": null,
         "DrugType": null,
@@ -2880,7 +3220,7 @@
         "OccurrenceEndDate": null,
         "CorrelatedCriteria": null,
         "DrugSourceConcept": null,
-        "CodesetId": 20,
+        "CodesetId": 24,
         "DrugTypeExclude": false,
         "Quantity": null,
         "DrugType": null,

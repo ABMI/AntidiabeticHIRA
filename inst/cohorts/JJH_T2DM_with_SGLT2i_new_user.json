@@ -197,6 +197,46 @@
           "isExcluded": false,
           "concept": {
             "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43534751,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BD15",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "metformin and dapagliflozin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1588671,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BD20",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "metformin and empagliflozin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        }
+      ]},
+      "name": "[JJH] MET + SGLT2",
+      "id": 8
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
             "CONCEPT_ID": 44785831,
             "STANDARD_CONCEPT": "S",
             "CONCEPT_CODE": "1488569",
@@ -277,39 +317,16 @@
           },
           "includeMapped": false,
           "includeDescendants": false
-        }
-      ]},
-      "name": "[JJH] SGLT2 alone",
-      "id": 7
-    },
-    {
-      "expression": {"items": [
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 43534751,
-            "STANDARD_CONCEPT": "C",
-            "CONCEPT_CODE": "A10BD15",
-            "VOCABULARY_ID": "ATC",
-            "CONCEPT_NAME": "metformin and dapagliflozin",
-            "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Classification",
-            "CONCEPT_CLASS_ID": "ATC 5th",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
         },
         {
           "isExcluded": false,
           "concept": {
             "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 1588671,
+            "CONCEPT_ID": 1123890,
             "STANDARD_CONCEPT": "C",
-            "CONCEPT_CODE": "A10BD20",
+            "CONCEPT_CODE": "A10BK01",
             "VOCABULARY_ID": "ATC",
-            "CONCEPT_NAME": "metformin and empagliflozin",
+            "CONCEPT_NAME": "dapagliflozin; oral",
             "DOMAIN_ID": "Drug",
             "STANDARD_CONCEPT_CAPTION": "Classification",
             "CONCEPT_CLASS_ID": "ATC 5th",
@@ -319,8 +336,8 @@
           "includeDescendants": false
         }
       ]},
-      "name": "[JJH] MET + SGLT2",
-      "id": 8
+      "name": "[JJH] SGLT2 alone_230119",
+      "id": 11
     },
     {
       "expression": {"items": [
@@ -1428,10 +1445,95 @@
           },
           "includeMapped": false,
           "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1123609,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BJ03",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "lixisenatide; parenteral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1123633,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BJ01",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "exenatide; parenteral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1123739,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BJ04",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "albiglutide; parenteral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21600750,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BB01",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "glibenclamide; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21600765,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BD",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "Combinations of oral blood glucose lowering drugs",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 4th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
         }
       ]},
-      "name": "[JJH] ADD except MET, SGLT2, MET+SGLT2, insulin alone",
-      "id": 9
+      "name": "[JJH] ADD except MET, SGLT2, MET+SGLT2, insulin alone_230119",
+      "id": 12
     },
     {
       "expression": {"items": [
@@ -1553,14 +1655,31 @@
           },
           "includeMapped": false,
           "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1123890,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BK01",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "dapagliflozin; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
         }
       ]},
-      "name": "[JJH] SGLT2 and MET+SGLT2",
-      "id": 10
+      "name": "[JJH] SGLT2 and MET+SGLT2 230119",
+      "id": 13
     }
   ],
   "EndStrategy": {"CustomEra": {
-    "DrugCodesetId": 10,
+    "DrugCodesetId": 13,
     "DaysSupplyOverride": null,
     "GapDays": 30,
     "Offset": 30
@@ -1570,7 +1689,7 @@
     "OccurrenceEndDate": null,
     "CorrelatedCriteria": null,
     "DrugSourceConcept": null,
-    "CodesetId": 9,
+    "CodesetId": 12,
     "DrugTypeExclude": false,
     "Quantity": null,
     "DrugType": null,
@@ -1661,7 +1780,7 @@
             "OccurrenceEndDate": null,
             "CorrelatedCriteria": null,
             "DrugSourceConcept": null,
-            "CodesetId": 9,
+            "CodesetId": 12,
             "DrugTypeExclude": false,
             "Quantity": null,
             "DrugType": null,
@@ -1751,7 +1870,7 @@
           "Count": null
         },
         "DrugSourceConcept": null,
-        "CodesetId": 7,
+        "CodesetId": 11,
         "DrugTypeExclude": false,
         "Quantity": null,
         "DrugType": null,

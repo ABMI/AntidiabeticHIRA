@@ -197,6 +197,473 @@
           "isExcluded": false,
           "concept": {
             "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43534751,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BD15",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "metformin and dapagliflozin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1588671,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BD20",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "metformin and empagliflozin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        }
+      ]},
+      "name": "[JJH] MET + SGLT2",
+      "id": 8
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4329847,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "22298006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Myocardial infarction",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 314666,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1755008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Old myocardial infarction",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[JJH] Acute myocardial infarction (LEGEND)",
+      "id": 13
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 376713,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "274100004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Cerebral hemorrhage",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 432923,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "21454007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Subarachnoid hemorrhage",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43530727,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "291571000119106",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Spontaneous cerebral hemorrhage",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4148906,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "270907008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Spontaneous subarachnoid hemorrhage",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 439847,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1386000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Intracranial hemorrhage",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[JJH] Intracranial bleed hemorrhagic stroke (LEGEND)",
+      "id": 14
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 372924,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "20059004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Cerebral artery occlusion",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 375557,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "75543006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Cerebral embolism",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 443454,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "432504007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Cerebral infarction",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 441874,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "71444005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Cerebral thrombosis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4111715,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "195231004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Occlusion and stenosis of cerebral arteries, not resulting in cerebral infarction",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        }
+      ]},
+      "name": "[JJH] Ischemic stroke (LEGEND)",
+      "id": 15
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4048809,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "230802007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Brainstem death",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 321042,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "410429000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Cardiac arrest",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 442289,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "53559009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Death in less than 24 hours from onset of symptoms",
+            "DOMAIN_ID": "Observation",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4317150,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "95281009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Sudden cardiac death",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4132309,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "26636000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Sudden death",
+            "DOMAIN_ID": "Observation",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 437894,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "71908006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Ventricular fibrillation",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[JJH] Sudden cardiac death (LEGEND)",
+      "id": 16
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 316139,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "84114007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Heart failure",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 315295,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "82523003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Congestive rheumatic heart failure",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[JJH] Heart failure",
+      "id": 17
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 316866,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "38341003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Hypertensive disorder",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 432867,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "55822004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Hyperlipidemia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 433736,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "414916001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Obesity",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[JJH] general cardiovascular risk",
+      "id": 18
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
             "CONCEPT_ID": 44785831,
             "STANDARD_CONCEPT": "S",
             "CONCEPT_CODE": "1488569",
@@ -277,39 +744,16 @@
           },
           "includeMapped": false,
           "includeDescendants": false
-        }
-      ]},
-      "name": "[JJH] SGLT2 alone",
-      "id": 7
-    },
-    {
-      "expression": {"items": [
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 43534751,
-            "STANDARD_CONCEPT": "C",
-            "CONCEPT_CODE": "A10BD15",
-            "VOCABULARY_ID": "ATC",
-            "CONCEPT_NAME": "metformin and dapagliflozin",
-            "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Classification",
-            "CONCEPT_CLASS_ID": "ATC 5th",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
         },
         {
           "isExcluded": false,
           "concept": {
             "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 1588671,
+            "CONCEPT_ID": 1123890,
             "STANDARD_CONCEPT": "C",
-            "CONCEPT_CODE": "A10BD20",
+            "CONCEPT_CODE": "A10BK01",
             "VOCABULARY_ID": "ATC",
-            "CONCEPT_NAME": "metformin and empagliflozin",
+            "CONCEPT_NAME": "dapagliflozin; oral",
             "DOMAIN_ID": "Drug",
             "STANDARD_CONCEPT_CAPTION": "Classification",
             "CONCEPT_CLASS_ID": "ATC 5th",
@@ -319,8 +763,8 @@
           "includeDescendants": false
         }
       ]},
-      "name": "[JJH] MET + SGLT2",
-      "id": 8
+      "name": "[JJH] SGLT2 alone_230119",
+      "id": 19
     },
     {
       "expression": {"items": [
@@ -1428,10 +1872,95 @@
           },
           "includeMapped": false,
           "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1123609,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BJ03",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "lixisenatide; parenteral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1123633,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BJ01",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "exenatide; parenteral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1123739,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BJ04",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "albiglutide; parenteral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21600750,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BB01",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "glibenclamide; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21600765,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BD",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "Combinations of oral blood glucose lowering drugs",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 4th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
         }
       ]},
-      "name": "[JJH] ADD except MET, SGLT2, MET+SGLT2, insulin alone",
-      "id": 9
+      "name": "[JJH] ADD except MET, SGLT2, MET+SGLT2, insulin alone_230119",
+      "id": 20
     },
     {
       "expression": {"items": [
@@ -1553,424 +2082,31 @@
           },
           "includeMapped": false,
           "includeDescendants": false
-        }
-      ]},
-      "name": "[JJH] SGLT2 and MET+SGLT2",
-      "id": 10
-    },
-    {
-      "expression": {"items": [
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 4329847,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "22298006",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Myocardial infarction",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        },
-        {
-          "isExcluded": true,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 314666,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "1755008",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Old myocardial infarction",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        }
-      ]},
-      "name": "[JJH] Acute myocardial infarction (LEGEND)",
-      "id": 13
-    },
-    {
-      "expression": {"items": [
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 376713,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "274100004",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Cerebral hemorrhage",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
         },
         {
           "isExcluded": false,
           "concept": {
             "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 432923,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "21454007",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Subarachnoid hemorrhage",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 43530727,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "291571000119106",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Spontaneous cerebral hemorrhage",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 4148906,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "270907008",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Spontaneous subarachnoid hemorrhage",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 439847,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "1386000",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Intracranial hemorrhage",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "CONCEPT_ID": 1123890,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BK01",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "dapagliflozin; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
           "includeDescendants": false
         }
       ]},
-      "name": "[JJH] Intracranial bleed hemorrhagic stroke (LEGEND)",
-      "id": 14
-    },
-    {
-      "expression": {"items": [
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 372924,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "20059004",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Cerebral artery occlusion",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 375557,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "75543006",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Cerebral embolism",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 443454,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "432504007",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Cerebral infarction",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 441874,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "71444005",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Cerebral thrombosis",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
-        }
-      ]},
-      "name": "[JJH] Ischemic stroke (LEGEND)",
-      "id": 15
-    },
-    {
-      "expression": {"items": [
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 4048809,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "230802007",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Brainstem death",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 321042,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "410429000",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Cardiac arrest",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 442289,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "53559009",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Death in less than 24 hours from onset of symptoms",
-            "DOMAIN_ID": "Observation",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 4317150,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "95281009",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Sudden cardiac death",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 4132309,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "26636000",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Sudden death",
-            "DOMAIN_ID": "Observation",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        },
-        {
-          "isExcluded": true,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 437894,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "71908006",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Ventricular fibrillation",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        }
-      ]},
-      "name": "[JJH] Sudden cardiac death (LEGEND)",
-      "id": 16
-    },
-    {
-      "expression": {"items": [
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 316139,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "84114007",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Heart failure",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        },
-        {
-          "isExcluded": true,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 315295,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "82523003",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Congestive rheumatic heart failure",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        }
-      ]},
-      "name": "[JJH] Heart failure",
-      "id": 17
-    },
-    {
-      "expression": {"items": [
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 316866,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "38341003",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Hypertensive disorder",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 432867,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "55822004",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Hyperlipidemia",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 433736,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "414916001",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Obesity",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        }
-      ]},
-      "name": "[JJH] general cardiovascular risk",
-      "id": 18
+      "name": "[JJH] SGLT2 and MET+SGLT2 230119",
+      "id": 21
     }
   ],
   "EndStrategy": {"CustomEra": {
-    "DrugCodesetId": 10,
+    "DrugCodesetId": 21,
     "DaysSupplyOverride": null,
     "GapDays": 30,
     "Offset": 30
@@ -1980,7 +2116,7 @@
     "OccurrenceEndDate": null,
     "CorrelatedCriteria": null,
     "DrugSourceConcept": null,
-    "CodesetId": 9,
+    "CodesetId": 20,
     "DrugTypeExclude": false,
     "Quantity": null,
     "DrugType": null,
@@ -2071,7 +2207,7 @@
             "OccurrenceEndDate": null,
             "CorrelatedCriteria": null,
             "DrugSourceConcept": null,
-            "CodesetId": 9,
+            "CodesetId": 20,
             "DrugTypeExclude": false,
             "Quantity": null,
             "DrugType": null,
@@ -2592,7 +2728,7 @@
           "Count": null
         },
         "DrugSourceConcept": null,
-        "CodesetId": 7,
+        "CodesetId": 19,
         "DrugTypeExclude": false,
         "Quantity": null,
         "DrugType": null,

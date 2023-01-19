@@ -283,6 +283,23 @@
           },
           "includeMapped": false,
           "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4111715,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "195231004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Occlusion and stenosis of cerebral arteries, not resulting in cerebral infarction",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
         }
       ]},
       "name": "Ischemic stroke",
@@ -373,7 +390,7 @@
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
-          "includeDescendants": false
+          "includeDescendants": true
         }
       ]},
       "name": "Intracranial bleed hemorrhagic stroke",
