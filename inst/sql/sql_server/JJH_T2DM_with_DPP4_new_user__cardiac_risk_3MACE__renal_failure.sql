@@ -637,7 +637,7 @@ FROM (
 
 	UNION ALL
 
-	select de.PERSON_ID, DRUG_EXPOSURE_START_DATEDRUG_EXPOSURE_END_DATE
+	select de.PERSON_ID, DRUG_EXPOSURE_START_DATE, DRUG_EXPOSURE_END_DATE
 	FROM #CodeSetData_28 de
 	JOIN ctePersons p on de.person_id = p.person_id
 ) E
