@@ -828,7 +828,9 @@
             44182774,
             44186088,
             44785473,
+            44785829,
             44785831,
+            45774751,
             45774754,
             45774758,
             45893491
@@ -1526,7 +1528,9 @@
             44182774,
             44186088,
             44785473,
+            44785829,
             44785831,
+            45774751,
             45774754,
             45774758,
             45893491
@@ -2224,7 +2228,9 @@
             44182774,
             44186088,
             44785473,
+            44785829,
             44785831,
+            45774751,
             45774754,
             45774758,
             45893491
@@ -2922,7 +2928,9 @@
             44182774,
             44186088,
             44785473,
+            44785829,
             44785831,
+            45774751,
             45774754,
             45774758,
             45893491
@@ -3620,7 +3628,9 @@
             44182774,
             44186088,
             44785473,
+            44785829,
             44785831,
+            45774751,
             45774754,
             45774758,
             45893491
@@ -4318,7 +4328,9 @@
             44182774,
             44186088,
             44785473,
+            44785829,
             44785831,
+            45774751,
             45774754,
             45774758,
             45893491
@@ -4978,7 +4990,9 @@
             44182774,
             44186088,
             44785473,
+            44785829,
             44785831,
+            45774751,
             45774754,
             45774758,
             45893491
@@ -13276,63 +13290,6 @@
                 "isExcluded": false,
                 "concept": {
                   "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 262,
-                  "STANDARD_CONCEPT": "S",
-                  "CONCEPT_CODE": "ERIP",
-                  "VOCABULARY_ID": "Visit",
-                  "CONCEPT_NAME": "Emergency Room and Inpatient Visit",
-                  "DOMAIN_ID": "Visit",
-                  "STANDARD_CONCEPT_CAPTION": "Standard",
-                  "CONCEPT_CLASS_ID": "Visit",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": true
-              },
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 9203,
-                  "STANDARD_CONCEPT": "S",
-                  "CONCEPT_CODE": "ER",
-                  "VOCABULARY_ID": "Visit",
-                  "CONCEPT_NAME": "Emergency Room Visit",
-                  "DOMAIN_ID": "Visit",
-                  "STANDARD_CONCEPT_CAPTION": "Standard",
-                  "CONCEPT_CLASS_ID": "Visit",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": true
-              },
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 9201,
-                  "STANDARD_CONCEPT": "S",
-                  "CONCEPT_CODE": "IP",
-                  "VOCABULARY_ID": "Visit",
-                  "CONCEPT_NAME": "Inpatient Visit",
-                  "DOMAIN_ID": "Visit",
-                  "STANDARD_CONCEPT_CAPTION": "Standard",
-                  "CONCEPT_CLASS_ID": "Visit",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": true
-              }
-            ]},
-            "name": "Inpatient or ER visit",
-            "id": 1
-          },
-          {
-            "expression": {"items": [
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
                   "CONCEPT_ID": 4048809,
                   "STANDARD_CONCEPT": "S",
                   "CONCEPT_CODE": "230802007",
@@ -13908,63 +13865,6 @@
             ]},
             "name": "Acute myocardial infarction",
             "id": 0
-          },
-          {
-            "expression": {"items": [
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 262,
-                  "STANDARD_CONCEPT": "S",
-                  "CONCEPT_CODE": "ERIP",
-                  "VOCABULARY_ID": "Visit",
-                  "CONCEPT_NAME": "Emergency Room and Inpatient Visit",
-                  "DOMAIN_ID": "Visit",
-                  "STANDARD_CONCEPT_CAPTION": "Standard",
-                  "CONCEPT_CLASS_ID": "Visit",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": true
-              },
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 9203,
-                  "STANDARD_CONCEPT": "S",
-                  "CONCEPT_CODE": "ER",
-                  "VOCABULARY_ID": "Visit",
-                  "CONCEPT_NAME": "Emergency Room Visit",
-                  "DOMAIN_ID": "Visit",
-                  "STANDARD_CONCEPT_CAPTION": "Standard",
-                  "CONCEPT_CLASS_ID": "Visit",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": true
-              },
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 9201,
-                  "STANDARD_CONCEPT": "S",
-                  "CONCEPT_CODE": "IP",
-                  "VOCABULARY_ID": "Visit",
-                  "CONCEPT_NAME": "Inpatient Visit",
-                  "DOMAIN_ID": "Visit",
-                  "STANDARD_CONCEPT_CAPTION": "Standard",
-                  "CONCEPT_CLASS_ID": "Visit",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": true
-              }
-            ]},
-            "name": "Inpatient or ER visit",
-            "id": 1
           },
           {
             "expression": {"items": [
@@ -28422,743 +28322,6 @@
                 "isExcluded": false,
                 "concept": {
                   "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 21600767,
-                  "STANDARD_CONCEPT": "C",
-                  "CONCEPT_CODE": "A10BD02",
-                  "VOCABULARY_ID": "ATC",
-                  "CONCEPT_NAME": "metformin and sulfonylureas",
-                  "DOMAIN_ID": "Drug",
-                  "STANDARD_CONCEPT_CAPTION": "Classification",
-                  "CONCEPT_CLASS_ID": "ATC 5th",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": false
-              },
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 42953698,
-                  "STANDARD_CONCEPT": "S",
-                  "CONCEPT_CODE": "OMOP4680254",
-                  "VOCABULARY_ID": "RxNorm Extension",
-                  "CONCEPT_NAME": "glimepiride 1 MG / Metformin 250 MG Oral Tablet",
-                  "DOMAIN_ID": "Drug",
-                  "STANDARD_CONCEPT_CAPTION": "Standard",
-                  "CONCEPT_CLASS_ID": "Clinical Drug",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": true
-              },
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 42953740,
-                  "STANDARD_CONCEPT": "S",
-                  "CONCEPT_CODE": "OMOP4680295",
-                  "VOCABULARY_ID": "RxNorm Extension",
-                  "CONCEPT_NAME": "glimepiride 2 MG / Metformin 500 MG Oral Tablet",
-                  "DOMAIN_ID": "Drug",
-                  "STANDARD_CONCEPT_CAPTION": "Standard",
-                  "CONCEPT_CLASS_ID": "Clinical Drug",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": true
-              },
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 42953818,
-                  "STANDARD_CONCEPT": "S",
-                  "CONCEPT_CODE": "OMOP4680372",
-                  "VOCABULARY_ID": "RxNorm Extension",
-                  "CONCEPT_NAME": "glimepiride 2 MG / Metformin 500 MG Extended Release Oral Tablet",
-                  "DOMAIN_ID": "Drug",
-                  "STANDARD_CONCEPT_CAPTION": "Standard",
-                  "CONCEPT_CLASS_ID": "Clinical Drug",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": true
-              },
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 42953917,
-                  "STANDARD_CONCEPT": "S",
-                  "CONCEPT_CODE": "OMOP4680470",
-                  "VOCABULARY_ID": "RxNorm Extension",
-                  "CONCEPT_NAME": "glimepiride 1 MG / Metformin 500 MG Oral Tablet",
-                  "DOMAIN_ID": "Drug",
-                  "STANDARD_CONCEPT_CAPTION": "Standard",
-                  "CONCEPT_CLASS_ID": "Clinical Drug",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": true
-              },
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 43534751,
-                  "STANDARD_CONCEPT": "C",
-                  "CONCEPT_CODE": "A10BD15",
-                  "VOCABULARY_ID": "ATC",
-                  "CONCEPT_NAME": "metformin and dapagliflozin",
-                  "DOMAIN_ID": "Drug",
-                  "STANDARD_CONCEPT_CAPTION": "Classification",
-                  "CONCEPT_CLASS_ID": "ATC 5th",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": false
-              },
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 1588671,
-                  "STANDARD_CONCEPT": "C",
-                  "CONCEPT_CODE": "A10BD20",
-                  "VOCABULARY_ID": "ATC",
-                  "CONCEPT_NAME": "metformin and empagliflozin",
-                  "DOMAIN_ID": "Drug",
-                  "STANDARD_CONCEPT_CAPTION": "Classification",
-                  "CONCEPT_CLASS_ID": "ATC 5th",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": false
-              },
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 21600782,
-                  "STANDARD_CONCEPT": "C",
-                  "CONCEPT_CODE": "A10BG03",
-                  "VOCABULARY_ID": "ATC",
-                  "CONCEPT_NAME": "pioglitazone; oral",
-                  "DOMAIN_ID": "Drug",
-                  "STANDARD_CONCEPT_CAPTION": "Classification",
-                  "CONCEPT_CLASS_ID": "ATC 5th",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": false
-              },
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 40165997,
-                  "STANDARD_CONCEPT": "S",
-                  "CONCEPT_CODE": "861748",
-                  "VOCABULARY_ID": "RxNorm",
-                  "CONCEPT_NAME": "glyburide 2.5 MG / metformin hydrochloride 500 MG Oral Tablet",
-                  "DOMAIN_ID": "Drug",
-                  "STANDARD_CONCEPT_CAPTION": "Standard",
-                  "CONCEPT_CLASS_ID": "Clinical Drug",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": true
-              },
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 40166002,
-                  "STANDARD_CONCEPT": "S",
-                  "CONCEPT_CODE": "861753",
-                  "VOCABULARY_ID": "RxNorm",
-                  "CONCEPT_NAME": "glyburide 5 MG / metformin hydrochloride 500 MG Oral Tablet",
-                  "DOMAIN_ID": "Drug",
-                  "STANDARD_CONCEPT_CAPTION": "Standard",
-                  "CONCEPT_CLASS_ID": "Clinical Drug",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": true
-              },
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 21600770,
-                  "STANDARD_CONCEPT": "C",
-                  "CONCEPT_CODE": "A10BD05",
-                  "VOCABULARY_ID": "ATC",
-                  "CONCEPT_NAME": "metformin and pioglitazone",
-                  "DOMAIN_ID": "Drug",
-                  "STANDARD_CONCEPT_CAPTION": "Classification",
-                  "CONCEPT_CLASS_ID": "ATC 5th",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": false
-              },
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 21600776,
-                  "STANDARD_CONCEPT": "C",
-                  "CONCEPT_CODE": "A10BF01",
-                  "VOCABULARY_ID": "ATC",
-                  "CONCEPT_NAME": "acarbose; oral",
-                  "DOMAIN_ID": "Drug",
-                  "STANDARD_CONCEPT_CAPTION": "Classification",
-                  "CONCEPT_CLASS_ID": "ATC 5th",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": false
-              },
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 21600774,
-                  "STANDARD_CONCEPT": "C",
-                  "CONCEPT_CODE": "A10BD09",
-                  "VOCABULARY_ID": "ATC",
-                  "CONCEPT_NAME": "pioglitazone and alogliptin",
-                  "DOMAIN_ID": "Drug",
-                  "STANDARD_CONCEPT_CAPTION": "Classification",
-                  "CONCEPT_CLASS_ID": "ATC 5th",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": false
-              },
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 44785831,
-                  "STANDARD_CONCEPT": "S",
-                  "CONCEPT_CODE": "1488569",
-                  "VOCABULARY_ID": "RxNorm",
-                  "CONCEPT_NAME": "dapagliflozin 10 MG Oral Tablet",
-                  "DOMAIN_ID": "Drug",
-                  "STANDARD_CONCEPT_CAPTION": "Standard",
-                  "CONCEPT_CLASS_ID": "Clinical Drug",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": true
-              },
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 42922767,
-                  "STANDARD_CONCEPT": "S",
-                  "CONCEPT_CODE": "OMOP4649757",
-                  "VOCABULARY_ID": "RxNorm Extension",
-                  "CONCEPT_NAME": "0.5 ML dulaglutide 1.5 MG/ML Pen Injector",
-                  "DOMAIN_ID": "Drug",
-                  "STANDARD_CONCEPT_CAPTION": "Standard",
-                  "CONCEPT_CLASS_ID": "Quant Clinical Drug",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": true
-              },
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 42922959,
-                  "STANDARD_CONCEPT": "S",
-                  "CONCEPT_CODE": "OMOP4649759",
-                  "VOCABULARY_ID": "RxNorm Extension",
-                  "CONCEPT_NAME": "0.5 ML dulaglutide 3 MG/ML Pen Injector",
-                  "DOMAIN_ID": "Drug",
-                  "STANDARD_CONCEPT_CAPTION": "Standard",
-                  "CONCEPT_CLASS_ID": "Quant Clinical Drug",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": true
-              },
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 45774754,
-                  "STANDARD_CONCEPT": "S",
-                  "CONCEPT_CODE": "1545658",
-                  "VOCABULARY_ID": "RxNorm",
-                  "CONCEPT_NAME": "empagliflozin 10 MG Oral Tablet",
-                  "DOMAIN_ID": "Drug",
-                  "STANDARD_CONCEPT_CAPTION": "Standard",
-                  "CONCEPT_CLASS_ID": "Clinical Drug",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": true
-              },
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 1123740,
-                  "STANDARD_CONCEPT": "C",
-                  "CONCEPT_CODE": "A10BK03",
-                  "VOCABULARY_ID": "ATC",
-                  "CONCEPT_NAME": "empagliflozin; oral",
-                  "DOMAIN_ID": "Drug",
-                  "STANDARD_CONCEPT_CAPTION": "Classification",
-                  "CONCEPT_CLASS_ID": "ATC 5th",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": false
-              },
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 715887,
-                  "STANDARD_CONCEPT": "C",
-                  "CONCEPT_CODE": "A10BK04",
-                  "VOCABULARY_ID": "ATC",
-                  "CONCEPT_NAME": "ertugliflozin; oral",
-                  "DOMAIN_ID": "Drug",
-                  "STANDARD_CONCEPT_CAPTION": "Classification",
-                  "CONCEPT_CLASS_ID": "ATC 5th",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": false
-              },
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 19077682,
-                  "STANDARD_CONCEPT": "S",
-                  "CONCEPT_CODE": "310537",
-                  "VOCABULARY_ID": "RxNorm",
-                  "CONCEPT_NAME": "glyburide 5 MG Oral Tablet",
-                  "DOMAIN_ID": "Drug",
-                  "STANDARD_CONCEPT_CAPTION": "Standard",
-                  "CONCEPT_CLASS_ID": "Clinical Drug",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": true
-              },
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 21600758,
-                  "STANDARD_CONCEPT": "C",
-                  "CONCEPT_CODE": "A10BB09",
-                  "VOCABULARY_ID": "ATC",
-                  "CONCEPT_NAME": "gliclazide; oral",
-                  "DOMAIN_ID": "Drug",
-                  "STANDARD_CONCEPT_CAPTION": "Classification",
-                  "CONCEPT_CLASS_ID": "ATC 5th",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": false
-              },
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 19059797,
-                  "STANDARD_CONCEPT": "S",
-                  "CONCEPT_CODE": "199825",
-                  "VOCABULARY_ID": "RxNorm",
-                  "CONCEPT_NAME": "gliclazide 80 MG Oral Tablet",
-                  "DOMAIN_ID": "Drug",
-                  "STANDARD_CONCEPT_CAPTION": "Standard",
-                  "CONCEPT_CLASS_ID": "Clinical Drug",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": true
-              },
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 19101729,
-                  "STANDARD_CONCEPT": "S",
-                  "CONCEPT_CODE": "389137",
-                  "VOCABULARY_ID": "RxNorm",
-                  "CONCEPT_NAME": "gliclazide 30 MG Extended Release Oral Tablet",
-                  "DOMAIN_ID": "Drug",
-                  "STANDARD_CONCEPT_CAPTION": "Standard",
-                  "CONCEPT_CLASS_ID": "Clinical Drug",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": true
-              },
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 21133671,
-                  "STANDARD_CONCEPT": "S",
-                  "CONCEPT_CODE": "OMOP412803",
-                  "VOCABULARY_ID": "RxNorm Extension",
-                  "CONCEPT_NAME": "Gliclazide 60 MG Extended Release Oral Tablet",
-                  "DOMAIN_ID": "Drug",
-                  "STANDARD_CONCEPT_CAPTION": "Standard",
-                  "CONCEPT_CLASS_ID": "Clinical Drug",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": true
-              },
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 1597761,
-                  "STANDARD_CONCEPT": "S",
-                  "CONCEPT_CODE": "199245",
-                  "VOCABULARY_ID": "RxNorm",
-                  "CONCEPT_NAME": "glimepiride 1 MG Oral Tablet",
-                  "DOMAIN_ID": "Drug",
-                  "STANDARD_CONCEPT_CAPTION": "Standard",
-                  "CONCEPT_CLASS_ID": "Clinical Drug",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": true
-              },
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 21600761,
-                  "STANDARD_CONCEPT": "C",
-                  "CONCEPT_CODE": "A10BB12",
-                  "VOCABULARY_ID": "ATC",
-                  "CONCEPT_NAME": "glimepiride; oral",
-                  "DOMAIN_ID": "Drug",
-                  "STANDARD_CONCEPT_CAPTION": "Classification",
-                  "CONCEPT_CLASS_ID": "ATC 5th",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": false
-              },
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 1597772,
-                  "STANDARD_CONCEPT": "S",
-                  "CONCEPT_CODE": "199246",
-                  "VOCABULARY_ID": "RxNorm",
-                  "CONCEPT_NAME": "glimepiride 2 MG Oral Tablet",
-                  "DOMAIN_ID": "Drug",
-                  "STANDARD_CONCEPT_CAPTION": "Standard",
-                  "CONCEPT_CLASS_ID": "Clinical Drug",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": true
-              },
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 1597758,
-                  "STANDARD_CONCEPT": "S",
-                  "CONCEPT_CODE": "153842",
-                  "VOCABULARY_ID": "RxNorm",
-                  "CONCEPT_NAME": "glimepiride 3 MG Oral Tablet",
-                  "DOMAIN_ID": "Drug",
-                  "STANDARD_CONCEPT_CAPTION": "Standard",
-                  "CONCEPT_CLASS_ID": "Clinical Drug",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": true
-              },
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 1597773,
-                  "STANDARD_CONCEPT": "S",
-                  "CONCEPT_CODE": "199247",
-                  "VOCABULARY_ID": "RxNorm",
-                  "CONCEPT_NAME": "glimepiride 4 MG Oral Tablet",
-                  "DOMAIN_ID": "Drug",
-                  "STANDARD_CONCEPT_CAPTION": "Standard",
-                  "CONCEPT_CLASS_ID": "Clinical Drug",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": true
-              },
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 21600756,
-                  "STANDARD_CONCEPT": "C",
-                  "CONCEPT_CODE": "A10BB07",
-                  "VOCABULARY_ID": "ATC",
-                  "CONCEPT_NAME": "glipizide; oral",
-                  "DOMAIN_ID": "Drug",
-                  "STANDARD_CONCEPT_CAPTION": "Classification",
-                  "CONCEPT_CLASS_ID": "ATC 5th",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": false
-              },
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 1501756,
-                  "STANDARD_CONCEPT": "C",
-                  "CONCEPT_CODE": "A10AE54",
-                  "VOCABULARY_ID": "ATC",
-                  "CONCEPT_NAME": "insulin glargine and lixisenatide; systemic",
-                  "DOMAIN_ID": "Drug",
-                  "STANDARD_CONCEPT_CAPTION": "Classification",
-                  "CONCEPT_CLASS_ID": "ATC 5th",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": false
-              },
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 715760,
-                  "STANDARD_CONCEPT": "C",
-                  "CONCEPT_CODE": "A10BK05",
-                  "VOCABULARY_ID": "ATC",
-                  "CONCEPT_NAME": "ipragliflozin",
-                  "DOMAIN_ID": "Drug",
-                  "STANDARD_CONCEPT_CAPTION": "Classification",
-                  "CONCEPT_CLASS_ID": "ATC 5th",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": false
-              },
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 42960773,
-                  "STANDARD_CONCEPT": "S",
-                  "CONCEPT_CODE": "OMOP4687272",
-                  "VOCABULARY_ID": "RxNorm Extension",
-                  "CONCEPT_NAME": "lobeglitazone 0.415 MG Oral Tablet",
-                  "DOMAIN_ID": "Drug",
-                  "STANDARD_CONCEPT_CAPTION": "Standard",
-                  "CONCEPT_CLASS_ID": "Clinical Drug",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": true
-              },
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 21600796,
-                  "STANDARD_CONCEPT": "C",
-                  "CONCEPT_CODE": "A10BX08",
-                  "VOCABULARY_ID": "ATC",
-                  "CONCEPT_NAME": "mitiglinide; oral",
-                  "DOMAIN_ID": "Drug",
-                  "STANDARD_CONCEPT_CAPTION": "Classification",
-                  "CONCEPT_CLASS_ID": "ATC 5th",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": false
-              },
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 21600791,
-                  "STANDARD_CONCEPT": "C",
-                  "CONCEPT_CODE": "A10BX03",
-                  "VOCABULARY_ID": "ATC",
-                  "CONCEPT_NAME": "nateglinide; oral",
-                  "DOMAIN_ID": "Drug",
-                  "STANDARD_CONCEPT_CAPTION": "Classification",
-                  "CONCEPT_CLASS_ID": "ATC 5th",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": false
-              },
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 19107110,
-                  "STANDARD_CONCEPT": "S",
-                  "CONCEPT_CODE": "430491",
-                  "VOCABULARY_ID": "RxNorm",
-                  "CONCEPT_NAME": "nateglinide 90 MG Oral Tablet",
-                  "DOMAIN_ID": "Drug",
-                  "STANDARD_CONCEPT_CAPTION": "Standard",
-                  "CONCEPT_CLASS_ID": "Clinical Drug",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": true
-              },
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 1502829,
-                  "STANDARD_CONCEPT": "S",
-                  "CONCEPT_CODE": "311919",
-                  "VOCABULARY_ID": "RxNorm",
-                  "CONCEPT_NAME": "nateglinide 120 MG Oral Tablet",
-                  "DOMAIN_ID": "Drug",
-                  "STANDARD_CONCEPT_CAPTION": "Standard",
-                  "CONCEPT_CLASS_ID": "Clinical Drug",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": true
-              },
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 21600782,
-                  "STANDARD_CONCEPT": "C",
-                  "CONCEPT_CODE": "A10BG03",
-                  "VOCABULARY_ID": "ATC",
-                  "CONCEPT_NAME": "pioglitazone; oral",
-                  "DOMAIN_ID": "Drug",
-                  "STANDARD_CONCEPT_CAPTION": "Classification",
-                  "CONCEPT_CLASS_ID": "ATC 5th",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": false
-              },
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 1525221,
-                  "STANDARD_CONCEPT": "S",
-                  "CONCEPT_CODE": "317573",
-                  "VOCABULARY_ID": "RxNorm",
-                  "CONCEPT_NAME": "pioglitazone 15 MG Oral Tablet",
-                  "DOMAIN_ID": "Drug",
-                  "STANDARD_CONCEPT_CAPTION": "Standard",
-                  "CONCEPT_CLASS_ID": "Clinical Drug",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": true
-              },
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 21600790,
-                  "STANDARD_CONCEPT": "C",
-                  "CONCEPT_CODE": "A10BX02",
-                  "VOCABULARY_ID": "ATC",
-                  "CONCEPT_NAME": "repaglinide; oral",
-                  "DOMAIN_ID": "Drug",
-                  "STANDARD_CONCEPT_CAPTION": "Classification",
-                  "CONCEPT_CLASS_ID": "ATC 5th",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": false
-              },
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 21600778,
-                  "STANDARD_CONCEPT": "C",
-                  "CONCEPT_CODE": "A10BF03",
-                  "VOCABULARY_ID": "ATC",
-                  "CONCEPT_NAME": "voglibose; oral",
-                  "DOMAIN_ID": "Drug",
-                  "STANDARD_CONCEPT_CAPTION": "Classification",
-                  "CONCEPT_CLASS_ID": "ATC 5th",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": false
-              },
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 42961179,
-                  "STANDARD_CONCEPT": "S",
-                  "CONCEPT_CODE": "OMOP4687677",
-                  "VOCABULARY_ID": "RxNorm Extension",
-                  "CONCEPT_NAME": "voglibose 0.2 MG Oral Tablet",
-                  "DOMAIN_ID": "Drug",
-                  "STANDARD_CONCEPT_CAPTION": "Standard",
-                  "CONCEPT_CLASS_ID": "Clinical Drug",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": true
-              },
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 42961189,
-                  "STANDARD_CONCEPT": "S",
-                  "CONCEPT_CODE": "OMOP4687687",
-                  "VOCABULARY_ID": "RxNorm Extension",
-                  "CONCEPT_NAME": "voglibose 0.3 MG Oral Tablet",
-                  "DOMAIN_ID": "Drug",
-                  "STANDARD_CONCEPT_CAPTION": "Standard",
-                  "CONCEPT_CLASS_ID": "Clinical Drug",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": true
-              }
-            ]},
-            "name": "[JJH] ADD except MET+DPP4 (except met, dpp4, insulin alone)",
-            "id": 21
-          },
-          {
-            "expression": {"items": [
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
                   "CONCEPT_ID": 197320,
                   "STANDARD_CONCEPT": "S",
                   "CONCEPT_CODE": "14669001",
@@ -31303,7 +30466,7 @@
           "OccurrenceEndDate": null,
           "CorrelatedCriteria": null,
           "DrugSourceConcept": null,
-          "CodesetId": 21,
+          "CodesetId": 27,
           "DrugTypeExclude": false,
           "Quantity": null,
           "DrugType": null,
@@ -54417,7 +53580,7 @@
       "id": 2263
     }
   ],
-  "name": "[JJH] T2DM antidiabetic drug_revised_230119v2",
+  "name": "[JJH] T2DM antidiabetic drug_revised_230207 (fix exclude concept)",
   "conceptSets": [
     {
       "expression": {"items": [
@@ -57163,15 +56326,49 @@
           },
           "includeMapped": false,
           "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 44785829,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1488564",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "dapagliflozin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45774751,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1545653",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "empagliflozin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
         }
       ]},
-      "name": "[JJH] T2DM exclude concept_230119",
+      "name": "[JJH] T2DM exclude concept_230207",
       "id": 1100
     }
   ],
   "doPositiveControlSynthesis": false,
   "id": 419,
-  "packageName": "T2DMrevised",
+  "packageName": "FixExcludeConcept",
   "negativeControls": [
     {
       "targetId": 2096,
