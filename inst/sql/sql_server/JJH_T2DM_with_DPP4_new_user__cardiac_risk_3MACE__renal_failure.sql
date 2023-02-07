@@ -707,7 +707,7 @@ JOIN
 select C.person_id, C.drug_exposure_id as event_id, C.drug_exposure_start_date as start_date,
        C.DRUG_EXPOSURE_END_DATE as end_date,
        C.visit_occurrence_id,C.drug_exposure_start_date as sort_date
-from #CodeSetData_21 C
+from #CodeSetData_27 C
 
 
 -- End Drug Exposure Criteria
