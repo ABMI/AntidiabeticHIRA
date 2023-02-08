@@ -10662,23 +10662,6 @@
                 "isExcluded": false,
                 "concept": {
                   "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 42921981,
-                  "STANDARD_CONCEPT": "S",
-                  "CONCEPT_CODE": "OMOP4648800",
-                  "VOCABULARY_ID": "RxNorm Extension",
-                  "CONCEPT_NAME": "2 ML Netilmicin 50 MG/ML Injectable Solution",
-                  "DOMAIN_ID": "Drug",
-                  "STANDARD_CONCEPT_CAPTION": "Standard",
-                  "CONCEPT_CLASS_ID": "Quant Clinical Drug",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": true
-              },
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
                   "CONCEPT_ID": 42708086,
                   "STANDARD_CONCEPT": "S",
                   "CONCEPT_CODE": "1243020",
@@ -11842,23 +11825,6 @@
                 },
                 "includeMapped": false,
                 "includeDescendants": false
-              },
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 42921981,
-                  "STANDARD_CONCEPT": "S",
-                  "CONCEPT_CODE": "OMOP4648800",
-                  "VOCABULARY_ID": "RxNorm Extension",
-                  "CONCEPT_NAME": "2 ML Netilmicin 50 MG/ML Injectable Solution",
-                  "DOMAIN_ID": "Drug",
-                  "STANDARD_CONCEPT_CAPTION": "Standard",
-                  "CONCEPT_CLASS_ID": "Quant Clinical Drug",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": true
               },
               {
                 "isExcluded": false,
@@ -22258,23 +22224,6 @@
                 "isExcluded": false,
                 "concept": {
                   "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 42921981,
-                  "STANDARD_CONCEPT": "S",
-                  "CONCEPT_CODE": "OMOP4648800",
-                  "VOCABULARY_ID": "RxNorm Extension",
-                  "CONCEPT_NAME": "2 ML Netilmicin 50 MG/ML Injectable Solution",
-                  "DOMAIN_ID": "Drug",
-                  "STANDARD_CONCEPT_CAPTION": "Standard",
-                  "CONCEPT_CLASS_ID": "Quant Clinical Drug",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": true
-              },
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
                   "CONCEPT_ID": 42708086,
                   "STANDARD_CONCEPT": "S",
                   "CONCEPT_CODE": "1243020",
@@ -23438,23 +23387,6 @@
                 },
                 "includeMapped": false,
                 "includeDescendants": false
-              },
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 42921981,
-                  "STANDARD_CONCEPT": "S",
-                  "CONCEPT_CODE": "OMOP4648800",
-                  "VOCABULARY_ID": "RxNorm Extension",
-                  "CONCEPT_NAME": "2 ML Netilmicin 50 MG/ML Injectable Solution",
-                  "DOMAIN_ID": "Drug",
-                  "STANDARD_CONCEPT_CAPTION": "Standard",
-                  "CONCEPT_CLASS_ID": "Quant Clinical Drug",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": true
               },
               {
                 "isExcluded": false,
@@ -28399,23 +28331,6 @@
                 "isExcluded": false,
                 "concept": {
                   "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 42921981,
-                  "STANDARD_CONCEPT": "S",
-                  "CONCEPT_CODE": "OMOP4648800",
-                  "VOCABULARY_ID": "RxNorm Extension",
-                  "CONCEPT_NAME": "2 ML Netilmicin 50 MG/ML Injectable Solution",
-                  "DOMAIN_ID": "Drug",
-                  "STANDARD_CONCEPT_CAPTION": "Standard",
-                  "CONCEPT_CLASS_ID": "Quant Clinical Drug",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": true
-              },
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
                   "CONCEPT_ID": 42708086,
                   "STANDARD_CONCEPT": "S",
                   "CONCEPT_CODE": "1243020",
@@ -29579,23 +29494,6 @@
                 },
                 "includeMapped": false,
                 "includeDescendants": false
-              },
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 42921981,
-                  "STANDARD_CONCEPT": "S",
-                  "CONCEPT_CODE": "OMOP4648800",
-                  "VOCABULARY_ID": "RxNorm Extension",
-                  "CONCEPT_NAME": "2 ML Netilmicin 50 MG/ML Injectable Solution",
-                  "DOMAIN_ID": "Drug",
-                  "STANDARD_CONCEPT_CAPTION": "Standard",
-                  "CONCEPT_CLASS_ID": "Quant Clinical Drug",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": true
               },
               {
                 "isExcluded": false,
@@ -34548,23 +34446,6 @@
                 "isExcluded": false,
                 "concept": {
                   "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 42921981,
-                  "STANDARD_CONCEPT": "S",
-                  "CONCEPT_CODE": "OMOP4648800",
-                  "VOCABULARY_ID": "RxNorm Extension",
-                  "CONCEPT_NAME": "2 ML Netilmicin 50 MG/ML Injectable Solution",
-                  "DOMAIN_ID": "Drug",
-                  "STANDARD_CONCEPT_CAPTION": "Standard",
-                  "CONCEPT_CLASS_ID": "Quant Clinical Drug",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": true
-              },
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
                   "CONCEPT_ID": 42708086,
                   "STANDARD_CONCEPT": "S",
                   "CONCEPT_CODE": "1243020",
@@ -35728,23 +35609,6 @@
                 },
                 "includeMapped": false,
                 "includeDescendants": false
-              },
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 42921981,
-                  "STANDARD_CONCEPT": "S",
-                  "CONCEPT_CODE": "OMOP4648800",
-                  "VOCABULARY_ID": "RxNorm Extension",
-                  "CONCEPT_NAME": "2 ML Netilmicin 50 MG/ML Injectable Solution",
-                  "DOMAIN_ID": "Drug",
-                  "STANDARD_CONCEPT_CAPTION": "Standard",
-                  "CONCEPT_CLASS_ID": "Quant Clinical Drug",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": true
               },
               {
                 "isExcluded": false,
@@ -40921,23 +40785,6 @@
                 "isExcluded": false,
                 "concept": {
                   "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 42921981,
-                  "STANDARD_CONCEPT": "S",
-                  "CONCEPT_CODE": "OMOP4648800",
-                  "VOCABULARY_ID": "RxNorm Extension",
-                  "CONCEPT_NAME": "2 ML Netilmicin 50 MG/ML Injectable Solution",
-                  "DOMAIN_ID": "Drug",
-                  "STANDARD_CONCEPT_CAPTION": "Standard",
-                  "CONCEPT_CLASS_ID": "Quant Clinical Drug",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": true
-              },
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
                   "CONCEPT_ID": 42708086,
                   "STANDARD_CONCEPT": "S",
                   "CONCEPT_CODE": "1243020",
@@ -42475,23 +42322,6 @@
                 },
                 "includeMapped": false,
                 "includeDescendants": false
-              },
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 42921981,
-                  "STANDARD_CONCEPT": "S",
-                  "CONCEPT_CODE": "OMOP4648800",
-                  "VOCABULARY_ID": "RxNorm Extension",
-                  "CONCEPT_NAME": "2 ML Netilmicin 50 MG/ML Injectable Solution",
-                  "DOMAIN_ID": "Drug",
-                  "STANDARD_CONCEPT_CAPTION": "Standard",
-                  "CONCEPT_CLASS_ID": "Quant Clinical Drug",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": true
               },
               {
                 "isExcluded": false,
@@ -46398,23 +46228,6 @@
                 "isExcluded": false,
                 "concept": {
                   "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 42921981,
-                  "STANDARD_CONCEPT": "S",
-                  "CONCEPT_CODE": "OMOP4648800",
-                  "VOCABULARY_ID": "RxNorm Extension",
-                  "CONCEPT_NAME": "2 ML Netilmicin 50 MG/ML Injectable Solution",
-                  "DOMAIN_ID": "Drug",
-                  "STANDARD_CONCEPT_CAPTION": "Standard",
-                  "CONCEPT_CLASS_ID": "Quant Clinical Drug",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": true
-              },
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
                   "CONCEPT_ID": 42708086,
                   "STANDARD_CONCEPT": "S",
                   "CONCEPT_CODE": "1243020",
@@ -47578,23 +47391,6 @@
                 },
                 "includeMapped": false,
                 "includeDescendants": false
-              },
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 42921981,
-                  "STANDARD_CONCEPT": "S",
-                  "CONCEPT_CODE": "OMOP4648800",
-                  "VOCABULARY_ID": "RxNorm Extension",
-                  "CONCEPT_NAME": "2 ML Netilmicin 50 MG/ML Injectable Solution",
-                  "DOMAIN_ID": "Drug",
-                  "STANDARD_CONCEPT_CAPTION": "Standard",
-                  "CONCEPT_CLASS_ID": "Quant Clinical Drug",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": true
               },
               {
                 "isExcluded": false,
@@ -51209,23 +51005,6 @@
                 "isExcluded": false,
                 "concept": {
                   "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 42921981,
-                  "STANDARD_CONCEPT": "S",
-                  "CONCEPT_CODE": "OMOP4648800",
-                  "VOCABULARY_ID": "RxNorm Extension",
-                  "CONCEPT_NAME": "2 ML Netilmicin 50 MG/ML Injectable Solution",
-                  "DOMAIN_ID": "Drug",
-                  "STANDARD_CONCEPT_CAPTION": "Standard",
-                  "CONCEPT_CLASS_ID": "Quant Clinical Drug",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": true
-              },
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
                   "CONCEPT_ID": 42708086,
                   "STANDARD_CONCEPT": "S",
                   "CONCEPT_CODE": "1243020",
@@ -52389,23 +52168,6 @@
                 },
                 "includeMapped": false,
                 "includeDescendants": false
-              },
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 42921981,
-                  "STANDARD_CONCEPT": "S",
-                  "CONCEPT_CODE": "OMOP4648800",
-                  "VOCABULARY_ID": "RxNorm Extension",
-                  "CONCEPT_NAME": "2 ML Netilmicin 50 MG/ML Injectable Solution",
-                  "DOMAIN_ID": "Drug",
-                  "STANDARD_CONCEPT_CAPTION": "Standard",
-                  "CONCEPT_CLASS_ID": "Quant Clinical Drug",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": true
               },
               {
                 "isExcluded": false,
