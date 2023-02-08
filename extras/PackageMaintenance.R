@@ -1,6 +1,6 @@
 # Copyright 2020 Observational Health Data Sciences and Informatics
 #
-# This file is part of T2DMantidiabecic
+# This file is part of T2DMantidiabetic
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -16,13 +16,13 @@
 
 # Format and check code ---------------------------------------------------
 OhdsiRTools::formatRFolder()
-OhdsiRTools::checkUsagePackage("T2DMantidiabecic")
+OhdsiRTools::checkUsagePackage("T2DMantidiabetic")
 OhdsiRTools::updateCopyrightYearFolder()
 devtools::spell_check()
 
 # Create manual -----------------------------------------------------------
-unlink("extras/T2DMantidiabecic.pdf")
-shell("R CMD Rd2pdf ./ --output=extras/T2DMantidiabecic.pdf")
+unlink("extras/T2DMantidiabetic.pdf")
+shell("R CMD Rd2pdf ./ --output=extras/T2DMantidiabetic.pdf")
 
 # Create vignettes ---------------------------------------------------------
 rmarkdown::render("vignettes/UsingSkeletonPackage.Rmd",
@@ -43,7 +43,7 @@ ROhdsiWebApi::insertCohortDefinitionSetInPackage(fileName = "CohortsToCreate.csv
                                                  insertTableSql = TRUE,
                                                  insertCohortCreationR = TRUE,
                                                  generateStats = FALSE,
-                                                 packageName = "T2DMantidiabecic")
+                                                 packageName = "T2DMantidiabetic")
 
 # Create analysis details -------------------------------------------------
 source("extras/CreateStudyAnalysisDetails.R")
@@ -51,4 +51,4 @@ createAnalysesDetails("inst/settings/")
 createPositiveControlSynthesisArgs("inst/settings/")
 
 # Store environment in which the study was executed -----------------------
-OhdsiRTools::createRenvLockFile("T2DMantidiabecic")
+OhdsiRTools::createRenvLockFile("T2DMantidiabetic")

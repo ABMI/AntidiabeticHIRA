@@ -1,4 +1,4 @@
-T2DMantidiabecic
+T2DMantidiabetic
 ==============================
 
 
@@ -26,7 +26,7 @@ How to run
 3. Once installed, you can execute the study by modifying and using the code below. For your convenience, this code is also provided under `extras/CodeToRun.R`:
 
 	```r
-	library(T2DMantidiabecic)
+	library(T2DMantidiabetic)
 	
   # Optional: specify where the temporary files (used by the Andromeda package) will be created:
   options(andromedaTempFolder = "c:/andromedaTemp")
@@ -38,7 +38,7 @@ How to run
 	minCellCount <- 5
 	
 	# The folder where the study intermediate and result files will be written:
-	outputFolder <- "c:/T2DMantidiabecic"
+	outputFolder <- "c:/T2DMantidiabetic"
 	
 	# Details for connecting to the server:
 	# See ?DatabaseConnector::createConnectionDetails for help
@@ -97,11 +97,11 @@ How to run
 
 License
 =======
-The T2DMantidiabecic package is licensed under Apache License 2.0
+The T2DMantidiabetic package is licensed under Apache License 2.0
 
 Development
 ===========
-T2DMantidiabecic was developed in ATLAS and R Studio.
+T2DMantidiabetic was developed in ATLAS and R Studio.
 
 ### Development status
 

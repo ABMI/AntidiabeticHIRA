@@ -55770,7 +55770,7 @@
   ],
   "doPositiveControlSynthesis": false,
   "id": 419,
-  "packageName": "FixExcludeConcept230208",
+  "packageName": "T2DMantidiabetic",
   "negativeControls": [
     {
       "targetId": 2096,
