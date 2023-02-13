@@ -7,22 +7,37 @@ CREATE TABLE #Codesets (
 INSERT INTO #Codesets (codeset_id, concept_id)
 SELECT 0 as codeset_id, c.concept_id FROM (select distinct I.concept_id FROM
 ( 
-  select concept_id from @vocabulary_database_schema.CONCEPT where concept_id in (4120120)
+  select concept_id from @vocabulary_database_schema.CONCEPT where concept_id in (4120120,4197217,4183419,4141148,42537496,4160832,42539666,42872870,46270107,4051326,4051329,4051328)
 UNION  select c.concept_id
   from @vocabulary_database_schema.CONCEPT c
   join @vocabulary_database_schema.CONCEPT_ANCESTOR ca on c.concept_id = ca.descendant_concept_id
-  and ca.ancestor_concept_id in (4120120)
+  and ca.ancestor_concept_id in (4120120,4197217,4183419,4141148,42537496,4160832,42539666,42872870,46270107,4051326,4051329,4051328)
+  and c.invalid_reason is null
+
+) I
+) C UNION ALL 
+SELECT 1 as codeset_id, c.concept_id FROM (select distinct I.concept_id FROM
+( 
+  select concept_id from @vocabulary_database_schema.CONCEPT where concept_id in (42872871,4030449,45757875)
+UNION  select c.concept_id
+  from @vocabulary_database_schema.CONCEPT c
+  join @vocabulary_database_schema.CONCEPT_ANCESTOR ca on c.concept_id = ca.descendant_concept_id
+  and ca.ancestor_concept_id in (42872871,4030449,45757875)
   and c.invalid_reason is null
 
 ) I
 ) C
 ;
 
-
-SELECT co.* 
+select po.* 
 into #CodeSetData_0
-FROM @cdm_database_schema.condition_occurrence co
-JOIN #Codesets codesets on ((co.condition_concept_id = codesets.concept_id and codesets.codeset_id = 0));
+FROM @cdm_database_schema.PROCEDURE_OCCURRENCE po
+JOIN #Codesets codesets on ((po.procedure_concept_id = codesets.concept_id and codesets.codeset_id = 0));
+
+select de.* 
+into #CodeSetData_1
+FROM @cdm_database_schema.DEVICE_EXPOSURE de
+JOIN #Codesets codesets on ((de.device_concept_id = codesets.concept_id and codesets.codeset_id = 1));
 
 
 with primary_events (event_id, person_id, start_date, end_date, op_start_date, op_end_date, visit_occurrence_id) as
@@ -36,13 +51,23 @@ FROM
          OP.observation_period_start_date as op_start_date, OP.observation_period_end_date as op_end_date, cast(E.visit_occurrence_id as bigint) as visit_occurrence_id
   FROM 
   (
-  -- Begin Condition Occurrence Criteria
-SELECT C.person_id, C.condition_occurrence_id as event_id, C.condition_start_date as start_date, COALESCE(C.condition_end_date, DATEADD(day,1,C.condition_start_date)) as end_date,
-  C.visit_occurrence_id, C.condition_start_date as sort_date
-FROM #CodeSetData_0 C
+  -- Begin Procedure Occurrence Criteria
+select C.person_id, C.procedure_occurrence_id as event_id, C.procedure_date as start_date, DATEADD(d,1,C.procedure_date) as END_DATE,
+       C.visit_occurrence_id, C.procedure_date as sort_date
+from #CodeSetData_0 C
 
 
--- End Condition Occurrence Criteria
+
+-- End Procedure Occurrence Criteria
+
+UNION ALL
+-- Begin Device Exposure Criteria
+select C.person_id, C.device_exposure_id as event_id, C.device_exposure_start_date as start_date, COALESCE(C.device_exposure_end_date, DATEADD(day,1,C.device_exposure_start_date)) as end_date,
+        C.visit_occurrence_id, C.device_exposure_start_date as sort_date
+from #CodeSetData_1 C
+
+
+-- End Device Exposure Criteria
 
   ) E
 	JOIN @cdm_database_schema.observation_period OP on E.person_id = OP.person_id and E.start_date >=  OP.observation_period_start_date and E.start_date <= op.observation_period_end_date
@@ -202,3 +227,6 @@ DROP TABLE #Codesets;
 
 TRUNCATE TABLE #CodeSetData_0;
 DROP TABLE #CodeSetData_0;
+
+TRUNCATE TABLE #CodeSetData_1;
+DROP TABLE #CodeSetData_1;

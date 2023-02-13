@@ -2408,7 +2408,7 @@
               "Coeff": -1
             },
             "End": {
-              "Days": null,
+              "Days": 0,
               "Coeff": 1
             },
             "UseIndexEnd": false

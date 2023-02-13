@@ -18,7 +18,7 @@ UNION  select c.concept_id
 ) C UNION ALL 
 SELECT 2 as codeset_id, c.concept_id FROM (select distinct I.concept_id FROM
 ( 
-  select concept_id from @vocabulary_database_schema.CONCEPT where concept_id in (443597,443612)
+  select concept_id from @vocabulary_database_schema.CONCEPT where concept_id in (443601,443597,443612,443611,443614)
 
 ) I
 ) C
@@ -29,7 +29,10 @@ into #CodeSetData_0
 FROM @cdm_database_schema.condition_occurrence co
 JOIN #Codesets codesets on ((co.condition_concept_id = codesets.concept_id and codesets.codeset_id = 0));
 
-
+SELECT co.* 
+into #CodeSetData_2
+FROM @cdm_database_schema.condition_occurrence co
+JOIN #Codesets codesets on ((co.condition_concept_id = codesets.concept_id and codesets.codeset_id = 2));
 
 with primary_events (event_id, person_id, start_date, end_date, op_start_date, op_end_date, visit_occurrence_id) as
 (
@@ -54,12 +57,8 @@ UNION ALL
 -- Begin Condition Occurrence Criteria
 SELECT C.person_id, C.condition_occurrence_id as event_id, C.condition_start_date as start_date, COALESCE(C.condition_end_date, DATEADD(day,1,C.condition_start_date)) as end_date,
   C.visit_occurrence_id, C.condition_start_date as sort_date
-FROM 
-(
-  SELECT co.* 
-  FROM @cdm_database_schema.condition_occurrence co
-  JOIN #Codesets codesets on ((co.condition_concept_id = codesets.concept_id and codesets.codeset_id = 2))
-) C
+FROM #CodeSetData_2 C
+
 
 
 -- End Condition Occurrence Criteria
@@ -222,3 +221,6 @@ DROP TABLE #Codesets;
 
 TRUNCATE TABLE #CodeSetData_0;
 DROP TABLE #CodeSetData_0;
+
+TRUNCATE TABLE #CodeSetData_2;
+DROP TABLE #CodeSetData_2;

@@ -36,6 +36,23 @@
           "isExcluded": false,
           "concept": {
             "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 443601,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "431856006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Chronic kidney disease stage 2",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
             "CONCEPT_ID": 443597,
             "STANDARD_CONCEPT": "S",
             "CONCEPT_CODE": "433144002",
@@ -65,9 +82,43 @@
           },
           "includeMapped": false,
           "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 443611,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "433146000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Chronic kidney disease stage 5",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 443614,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "431855005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Chronic kidney disease stage 1",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
         }
       ]},
-      "name": "CKD stage 3~4",
+      "name": "CKD stage 1~5",
       "id": 2
     }
   ],

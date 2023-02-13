@@ -8,27 +8,275 @@
     "StartDate": null,
     "EndDate": null
   },
-  "ConceptSets": [{
-    "expression": {"items": [{
-      "isExcluded": false,
-      "concept": {
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_ID": 4120120,
-        "STANDARD_CONCEPT": "S",
-        "CONCEPT_CODE": "302497006",
-        "VOCABULARY_ID": "SNOMED",
-        "CONCEPT_NAME": "Hemodialysis",
-        "DOMAIN_ID": "Procedure",
-        "STANDARD_CONCEPT_CAPTION": "Standard",
-        "CONCEPT_CLASS_ID": "Procedure",
-        "INVALID_REASON": "V"
-      },
-      "includeMapped": false,
-      "includeDescendants": true
-    }]},
-    "name": "[JJH] Hemodialysis",
-    "id": 0
-  }],
+  "ConceptSets": [
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4120120,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "302497006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Hemodialysis",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4197217,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "79827002",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Arteriovenous anastomosis for renal dialysis",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4183419,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "54817007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Arteriovenous shunt for renal dialysis by external cannula",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4141148,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "265538001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Repair of acquired arteriovenous fistula",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42537496,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "736919006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Insertion of hemodialysis catheter",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4160832,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "431781000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Insertion of tunneled dialysis catheter using fluoroscopic guidance",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42539666,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "736922008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Insertion of tunneled hemodialysis catheter",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42872870,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "450865002",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Insertion of nontunneled hemodialysis catheter",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 46270107,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "14030001000004108",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Insertion of dialysis catheter into femoral vein",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4051326,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "233575001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Intermittent hemodialysis",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4051329,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "233580005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Continuous venovenous hemodialysis",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4051328,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "233579007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Continuous arteriovenous hemodialysis",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[JJH] Hemodialysis procedure",
+      "id": 0
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42872871,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "450866001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Hemodialysis catheter",
+            "DOMAIN_ID": "Device",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Physical Object",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4030449,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "129462001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Catheter guide wire",
+            "DOMAIN_ID": "Device",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Physical Object",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45757875,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "462275000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Hemodialysis catheter, implantable",
+            "DOMAIN_ID": "Device",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Physical Object",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[JJH] Hemodialysis device",
+      "id": 1
+    }
+  ],
   "EndStrategy": {"DateOffset": {
     "DateField": "StartDate",
     "Offset": 0
@@ -38,22 +286,39 @@
   "QualifiedLimit": {"Type": "First"},
   "InclusionRules": [],
   "PrimaryCriteria": {
-    "CriteriaList": [{"ConditionOccurrence": {
-      "OccurrenceEndDate": null,
-      "CorrelatedCriteria": null,
-      "ConditionTypeExclude": false,
-      "CodesetId": 0,
-      "ProviderSpecialty": null,
-      "Gender": null,
-      "VisitType": null,
-      "First": null,
-      "OccurrenceStartDate": null,
-      "ConditionType": null,
-      "ConditionSourceConcept": null,
-      "ConditionStatus": null,
-      "StopReason": null,
-      "Age": null
-    }}],
+    "CriteriaList": [
+      {"ProcedureOccurrence": {
+        "ProcedureType": null,
+        "CorrelatedCriteria": null,
+        "CodesetId": 0,
+        "ProcedureSourceConcept": null,
+        "Quantity": null,
+        "ProviderSpecialty": null,
+        "Gender": null,
+        "ProcedureTypeExclude": false,
+        "VisitType": null,
+        "First": null,
+        "OccurrenceStartDate": null,
+        "Modifier": null,
+        "Age": null
+      }},
+      {"DeviceExposure": {
+        "OccurrenceEndDate": null,
+        "DeviceTypeExclude": false,
+        "CorrelatedCriteria": null,
+        "CodesetId": 1,
+        "Quantity": null,
+        "UniqueDeviceId": null,
+        "ProviderSpecialty": null,
+        "DeviceSourceConcept": null,
+        "Gender": null,
+        "DeviceType": null,
+        "VisitType": null,
+        "First": null,
+        "OccurrenceStartDate": null,
+        "Age": null
+      }}
+    ],
     "PrimaryCriteriaLimit": {"Type": "All"},
     "ObservationWindow": {
       "PostDays": 0,

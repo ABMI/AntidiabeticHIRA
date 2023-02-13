@@ -235,12 +235,10 @@ FROM @cdm_database_schema.DRUG_EXPOSURE de
 JOIN #Codesets codesets on ((de.drug_concept_id = codesets.concept_id and codesets.codeset_id = 20));
 
 
-select de.* 
+select de.*
 into #CodeSetData_21
 FROM @cdm_database_schema.DRUG_EXPOSURE de
-JOIN #Codesets codesets on ((de.drug_concept_id = codesets.concept_id and codesets.codeset_id = 21));
-
-
+JOIN #Codesets cs on cs.codeset_id = 21 AND de.drug_concept_id = cs.concept_id;
 
 
 

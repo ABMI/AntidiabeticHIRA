@@ -105,12 +105,10 @@ into #CodeSetData_14
 FROM @cdm_database_schema.DRUG_EXPOSURE de
 JOIN #Codesets codesets on ((de.drug_concept_id = codesets.concept_id and codesets.codeset_id = 14));
 
-select de.* 
+select de.*
 into #CodeSetData_15
 FROM @cdm_database_schema.DRUG_EXPOSURE de
-JOIN #Codesets codesets on ((de.drug_concept_id = codesets.concept_id and codesets.codeset_id = 15));
-
-
+JOIN #Codesets cs on cs.codeset_id = 15 AND de.drug_concept_id = cs.concept_id;
 
 
 with primary_events (event_id, person_id, start_date, end_date, op_start_date, op_end_date, visit_occurrence_id) as

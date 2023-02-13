@@ -13,20 +13,20 @@
       "isExcluded": false,
       "concept": {
         "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_ID": 443611,
+        "CONCEPT_ID": 193782,
         "STANDARD_CONCEPT": "S",
-        "CONCEPT_CODE": "433146000",
+        "CONCEPT_CODE": "46177005",
         "VOCABULARY_ID": "SNOMED",
-        "CONCEPT_NAME": "Chronic kidney disease stage 5",
+        "CONCEPT_NAME": "End-stage renal disease",
         "DOMAIN_ID": "Condition",
         "STANDARD_CONCEPT_CAPTION": "Standard",
         "CONCEPT_CLASS_ID": "Clinical Finding",
         "INVALID_REASON": "V"
       },
       "includeMapped": false,
-      "includeDescendants": false
+      "includeDescendants": true
     }]},
-    "name": "CKD stage 5",
+    "name": "ESRD",
     "id": 0
   }],
   "EndStrategy": {"DateOffset": {

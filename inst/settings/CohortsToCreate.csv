@@ -55,3 +55,5 @@ atlasId,atlasName,cohortId,name
 2490,[JJH] hospitalization by renal failure,2490,JJH_hospitalization_by_renal_failure
 2261,[JJH] T2DM with SGLT-2i new user + CKD stage over 4,2261,JJH_T2DM_with_SGLT2i_new_user__CKD_stage_over_4
 2263,[JJH] T2DM with DPP-4i new user + CKD stage over 4,2263,JJH_T2DM_with_DPP4i_new_user__CKD_stage_over_4
+2772,[JJH] T2DM with SGLT-2i new user + renal failure,2772,JJH_T2DM_with_SGLT2i_new_user__renal_failure
+2771,[JJH] T2DM with DPP-4 new user + renal failure,2771,JJH_T2DM_with_DPP4_new_user__renal_failure

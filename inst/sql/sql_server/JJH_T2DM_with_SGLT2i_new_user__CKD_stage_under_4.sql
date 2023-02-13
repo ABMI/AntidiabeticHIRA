@@ -106,13 +106,10 @@ into #CodeSetData_13
 FROM @cdm_database_schema.DRUG_EXPOSURE de
 JOIN #Codesets codesets on ((de.drug_concept_id = codesets.concept_id and codesets.codeset_id = 13)); 
 
-select de.* 
+select de.*
 into #CodeSetData_14
 FROM @cdm_database_schema.DRUG_EXPOSURE de
-JOIN #Codesets codesets on ((de.drug_concept_id = codesets.concept_id and codesets.codeset_id = 14));
-
-
-
+JOIN #Codesets cs on cs.codeset_id = 14 AND de.drug_concept_id = cs.concept_id;
 
 
 
