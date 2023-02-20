@@ -680,6 +680,7 @@
             42961495,
             42961500,
             42961501,
+            43009070,
             43013924,
             43013925,
             43137483,
@@ -1331,6 +1332,7 @@
             42961495,
             42961500,
             42961501,
+            43009070,
             43013924,
             43013925,
             43137483,
@@ -1982,6 +1984,7 @@
             42961495,
             42961500,
             42961501,
+            43009070,
             43013924,
             43013925,
             43137483,
@@ -2633,6 +2636,7 @@
             42961495,
             42961500,
             42961501,
+            43009070,
             43013924,
             43013925,
             43137483,
@@ -3284,6 +3288,7 @@
             42961495,
             42961500,
             42961501,
+            43009070,
             43013924,
             43013925,
             43137483,
@@ -3935,6 +3940,7 @@
             42961495,
             42961500,
             42961501,
+            43009070,
             43013924,
             43013925,
             43137483,
@@ -4548,6 +4554,7 @@
             42961495,
             42961500,
             42961501,
+            43009070,
             43013924,
             43013925,
             43137483,
@@ -5161,6 +5168,7 @@
             42961495,
             42961500,
             42961501,
+            43009070,
             43013924,
             43013925,
             43137483,
@@ -18161,42 +18169,23 @@
           "EndDate": null
         },
         "ConceptSets": [{
-          "expression": {"items": [
-            {
-              "isExcluded": false,
-              "concept": {
-                "INVALID_REASON_CAPTION": "Valid",
-                "CONCEPT_ID": 443611,
-                "STANDARD_CONCEPT": "S",
-                "CONCEPT_CODE": "433146000",
-                "VOCABULARY_ID": "SNOMED",
-                "CONCEPT_NAME": "Chronic kidney disease stage 5",
-                "DOMAIN_ID": "Condition",
-                "STANDARD_CONCEPT_CAPTION": "Standard",
-                "CONCEPT_CLASS_ID": "Clinical Finding",
-                "INVALID_REASON": "V"
-              },
-              "includeMapped": false,
-              "includeDescendants": false
+          "expression": {"items": [{
+            "isExcluded": false,
+            "concept": {
+              "INVALID_REASON_CAPTION": "Valid",
+              "CONCEPT_ID": 193782,
+              "STANDARD_CONCEPT": "S",
+              "CONCEPT_CODE": "46177005",
+              "VOCABULARY_ID": "SNOMED",
+              "CONCEPT_NAME": "End-stage renal disease",
+              "DOMAIN_ID": "Condition",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "CONCEPT_CLASS_ID": "Clinical Finding",
+              "INVALID_REASON": "V"
             },
-            {
-              "isExcluded": false,
-              "concept": {
-                "INVALID_REASON_CAPTION": "Valid",
-                "CONCEPT_ID": 193782,
-                "STANDARD_CONCEPT": "S",
-                "CONCEPT_CODE": "46177005",
-                "VOCABULARY_ID": "SNOMED",
-                "CONCEPT_NAME": "End-stage renal disease",
-                "DOMAIN_ID": "Condition",
-                "STANDARD_CONCEPT_CAPTION": "Standard",
-                "CONCEPT_CLASS_ID": "Clinical Finding",
-                "INVALID_REASON": "V"
-              },
-              "includeMapped": false,
-              "includeDescendants": true
-            }
-          ]},
+            "includeMapped": false,
+            "includeDescendants": true
+          }]},
           "name": "ESRD",
           "id": 0
         }],
@@ -62030,6 +62019,23 @@
             "CONCEPT_CODE": "1545653",
             "VOCABULARY_ID": "RxNorm",
             "CONCEPT_NAME": "empagliflozin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43009070,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4700496",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "teneligliptin",
             "DOMAIN_ID": "Drug",
             "STANDARD_CONCEPT_CAPTION": "Standard",
             "CONCEPT_CLASS_ID": "Ingredient",
