@@ -13,21 +13,21 @@
       "isExcluded": false,
       "concept": {
         "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_ID": 4193988,
+        "CONCEPT_ID": 437833,
         "STANDARD_CONCEPT": "S",
-        "CONCEPT_CODE": "312155003",
+        "CONCEPT_CODE": "43339004",
         "VOCABULARY_ID": "SNOMED",
-        "CONCEPT_NAME": "Genital infection",
+        "CONCEPT_NAME": "Hypokalemia",
         "DOMAIN_ID": "Condition",
         "STANDARD_CONCEPT_CAPTION": "Standard",
         "CONCEPT_CLASS_ID": "Clinical Finding",
         "INVALID_REASON": "V"
       },
       "includeMapped": false,
-      "includeDescendants": true
+      "includeDescendants": false
     }]},
-    "name": "[JJH] genital infection",
-    "id": 0
+    "name": "[JJH] hypokalemia",
+    "id": 1
   }],
   "EndStrategy": {"DateOffset": {
     "DateField": "StartDate",
@@ -42,7 +42,7 @@
       "OccurrenceEndDate": null,
       "CorrelatedCriteria": null,
       "ConditionTypeExclude": false,
-      "CodesetId": 0,
+      "CodesetId": 1,
       "ProviderSpecialty": null,
       "Gender": null,
       "VisitType": null,

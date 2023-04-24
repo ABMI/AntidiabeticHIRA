@@ -30,7 +30,6 @@ atlasId,atlasName,cohortId,name
 2487,[JJH] end stage renal disease,2487,JJH_end_stage_renal_disease
 2488,[JJH] Hemodialysis,2488,JJH_Hemodialysis
 2489,[JJH] Kidney transplantation,2489,JJH_Kidney_transplantation
-2491,[JJH] genital infection_safety,2491,JJH_genital_infection_safety
 2492,[JJH] biliary disease_safety,2492,JJH_biliary_disease_safety
 2493,[JJH] Bone fracture_safety,2493,JJH_Bone_fracture_safety
 2494,[JJH] Nasopharyngitis_safety,2494,JJH_Nasopharyngitis_safety
@@ -42,6 +41,10 @@ atlasId,atlasName,cohortId,name
 2502,[JJH] asthenia safety,2502,JJH_asthenia_safety
 2503,[JJH] cholecystitis_safety,2503,JJH_cholecystitis_safety
 2504,[JJH] cholelithiasis safety,2504,JJH_cholelithiasis_safety
+2986,[JJH] acute myocardial infarction,2986,JJH_acute_myocardial_infarction
+2988,[JJH] sudden cardiac death,2988,JJH_sudden_cardiac_death
+2989,[JJH] stroke,2989,JJH_stroke
+2992,[JJH] hypokalemia,2992,JJH_hypokalemia
 2483,[JJH] T2DM with SGLT-2i new user + cardiac risk (3-MACE),2483,JJH_T2DM_with_SGLT2i_new_user__cardiac_risk_3MACE
 2484,[JJH] T2DM with DPP-4 new user + cardiac risk (3-MACE),2484,JJH_T2DM_with_DPP4_new_user__cardiac_risk_3MACE
 2481,[JJH] T2DM with SGLT-2i new user + cardiac risk (3-MACE + renal failure),2481,JJH_T2DM_with_SGLT2i_new_user__cardiac_risk_3MACE__renal_failure

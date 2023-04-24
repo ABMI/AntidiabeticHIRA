@@ -27,12 +27,6 @@ UNION  select c.concept_id
 
 ) I
 ) C UNION ALL 
-SELECT 8 as codeset_id, c.concept_id FROM (select distinct I.concept_id FROM
-( 
-  select concept_id from @vocabulary_database_schema.CONCEPT where concept_id in (43534751,1588671)
-
-) I
-) C UNION ALL 
 SELECT 13 as codeset_id, c.concept_id FROM (select distinct I.concept_id FROM
 ( 
   select concept_id from @vocabulary_database_schema.CONCEPT where concept_id in (4329847)
@@ -121,35 +115,46 @@ UNION  select c.concept_id
 
 ) I
 ) C UNION ALL 
-SELECT 20 as codeset_id, c.concept_id FROM (select distinct I.concept_id FROM
+SELECT 23 as codeset_id, c.concept_id FROM (select distinct I.concept_id FROM
 ( 
-  select concept_id from @vocabulary_database_schema.CONCEPT where concept_id in (44785831,45774754,1123740,715887,715760,1123890)
+  select concept_id from @vocabulary_database_schema.CONCEPT where concept_id in (1123673,1123890,1123740,715887,42962859,43009020)
 UNION  select c.concept_id
   from @vocabulary_database_schema.CONCEPT c
   join @vocabulary_database_schema.CONCEPT_ANCESTOR ca on c.concept_id = ca.descendant_concept_id
-  and ca.ancestor_concept_id in (44785831,45774754)
+  and ca.ancestor_concept_id in (1123673,1123890,1123740,715887,42962859)
   and c.invalid_reason is null
 
 ) I
 ) C UNION ALL 
-SELECT 21 as codeset_id, c.concept_id FROM (select distinct I.concept_id FROM
+SELECT 24 as codeset_id, c.concept_id FROM (select distinct I.concept_id FROM
+( 
+  select concept_id from @vocabulary_database_schema.CONCEPT where concept_id in (45893267,43534751,1588671,715784,793297,793299,36248374,46287679,45775454,36248557,36785134,36247438,45774709)
+UNION  select c.concept_id
+  from @vocabulary_database_schema.CONCEPT c
+  join @vocabulary_database_schema.CONCEPT_ANCESTOR ca on c.concept_id = ca.descendant_concept_id
+  and ca.ancestor_concept_id in (793297,793299,36248374,46287679,45775454,36248557,36785134,36247438,45774709)
+  and c.invalid_reason is null
+
+) I
+) C UNION ALL 
+SELECT 25 as codeset_id, c.concept_id FROM (select distinct I.concept_id FROM
 ( 
   select concept_id from @vocabulary_database_schema.CONCEPT where concept_id in (21600767,42953698,42953740,42953818,42953917,43534749,21600782,21600783,42961487,42961490,42961494,45893491,40165997,40166002,42708086,42708090,42708088,21600770,40251676,40164891,42708172,36887702,40164922,42708176,42708168,42960593,21081251,21169719,43267262,21600776,21600774,42922767,42922959,42961500,715821,19077682,21600758,19059797,19101729,21133671,1597761,21600761,1597772,1597758,1597773,21600756,1501756,40239218,42960773,21600796,21600791,19107110,1502829,1525221,21600790,21600786,40166041,21600784,19125045,19125049,19125041,19129179,21600778,42961179,42961189,1123609,1123633,1123739,21600750,21600765)
 UNION  select c.concept_id
   from @vocabulary_database_schema.CONCEPT c
   join @vocabulary_database_schema.CONCEPT_ANCESTOR ca on c.concept_id = ca.descendant_concept_id
-  and ca.ancestor_concept_id in (42953698,42953740,42953818,42953917,42961487,42961490,42961494,40165997,40166002,42708086,42708090,42708088,40164891,42708172,36887702,40164922,42708176,42708168,42960593,21081251,21169719,43267262,42922767,42922959,42961500,19077682,19059797,19101729,21133671,1597761,1597772,1597758,1597773,40239218,42960773,19107110,1502829,1525221,40166041,19125045,19125049,19125041,19129179,42961179,42961189)
+  and ca.ancestor_concept_id in (42953698,42953740,42953818,42953917,21600782,21600783,42961487,42961490,42961494,40165997,40166002,42708086,42708090,42708088,40164891,42708172,36887702,40164922,42708176,42708168,42960593,21081251,21169719,43267262,21600776,21600774,42922767,42922959,42961500,19077682,21600758,19059797,19101729,21133671,1597761,21600761,1597772,1597758,1597773,21600756,40239218,42960773,21600796,21600791,19107110,1502829,1525221,21600790,21600786,40166041,21600784,19125045,19125049,19125041,19129179,21600778,42961179,42961189,1123609,1123633,1123739,21600750)
   and c.invalid_reason is null
 
 ) I
 ) C UNION ALL 
-SELECT 22 as codeset_id, c.concept_id FROM (select distinct I.concept_id FROM
+SELECT 26 as codeset_id, c.concept_id FROM (select distinct I.concept_id FROM
 ( 
-  select concept_id from @vocabulary_database_schema.CONCEPT where concept_id in (44785831,45774754,1123740,715887,715760,43534751,1588671,1123890)
+  select concept_id from @vocabulary_database_schema.CONCEPT where concept_id in (45893267,43534751,1588671,715784,793297,793299,36248374,46287679,45775454,36248557,36785134,36247438,45774709,715887,1123740,1123890,1123673,42962859,43009020)
 UNION  select c.concept_id
   from @vocabulary_database_schema.CONCEPT c
   join @vocabulary_database_schema.CONCEPT_ANCESTOR ca on c.concept_id = ca.descendant_concept_id
-  and ca.ancestor_concept_id in (44785831,45774754)
+  and ca.ancestor_concept_id in (793297,793299,36248374,46287679,45775454,36248557,36785134,36247438,45774709,715887,1123740,1123890,1123673,42962859)
   and c.invalid_reason is null
 
 ) I
@@ -159,73 +164,64 @@ UNION  select c.concept_id
 
 SELECT co.* 
 into #CodeSetData_1
-FROM @cdm_database_schema.condition_occurrence co
+FROM @cdm_database_schema.CONDITION_OCCURRENCE co
 JOIN #Codesets codesets on ((co.condition_concept_id = codesets.concept_id and codesets.codeset_id = 1));
-
 
 select de.* 
 into #CodeSetData_2
 FROM @cdm_database_schema.DRUG_EXPOSURE de
 JOIN #Codesets codesets on ((de.drug_concept_id = codesets.concept_id and codesets.codeset_id = 2));
 
-select de.* , row_number() over (PARTITION BY de.person_id ORDER BY de.drug_exposure_start_date, de.drug_exposure_id) as ordinal
-into #CodeSetData_8
-FROM @cdm_database_schema.DRUG_EXPOSURE de
-JOIN #Codesets codesets on ((de.drug_concept_id = codesets.concept_id and codesets.codeset_id = 8));
-
-
 SELECT co.* 
 into #CodeSetData_13
-FROM @cdm_database_schema.condition_occurrence co
+FROM @cdm_database_schema.CONDITION_OCCURRENCE co
 JOIN #Codesets codesets on ((co.condition_concept_id = codesets.concept_id and codesets.codeset_id = 13));
-
 
 SELECT co.* 
 into #CodeSetData_14
-FROM @cdm_database_schema.condition_occurrence co
+FROM @cdm_database_schema.CONDITION_OCCURRENCE co
 JOIN #Codesets codesets on ((co.condition_concept_id = codesets.concept_id and codesets.codeset_id = 14));
-
 
 SELECT co.* 
 into #CodeSetData_15
-FROM @cdm_database_schema.condition_occurrence co
+FROM @cdm_database_schema.CONDITION_OCCURRENCE co
 JOIN #Codesets codesets on ((co.condition_concept_id = codesets.concept_id and codesets.codeset_id = 15));
-
 
 SELECT co.* 
 into #CodeSetData_16
-FROM @cdm_database_schema.condition_occurrence co
+FROM @cdm_database_schema.CONDITION_OCCURRENCE co
 JOIN #Codesets codesets on ((co.condition_concept_id = codesets.concept_id and codesets.codeset_id = 16));
-
 
 SELECT co.* 
 into #CodeSetData_18
-FROM @cdm_database_schema.condition_occurrence co
+FROM @cdm_database_schema.CONDITION_OCCURRENCE co
 JOIN #Codesets codesets on ((co.condition_concept_id = codesets.concept_id and codesets.codeset_id = 18));
 
 SELECT co.* 
 into #CodeSetData_19
-FROM @cdm_database_schema.condition_occurrence co
+FROM @cdm_database_schema.CONDITION_OCCURRENCE co
 JOIN #Codesets codesets on ((co.condition_concept_id = codesets.concept_id and codesets.codeset_id = 19));
+
+select de.* , row_number() over (PARTITION BY de.person_id ORDER BY de.drug_exposure_start_date, de.drug_exposure_id) as ordinal
+into #CodeSetData_23
+FROM @cdm_database_schema.DRUG_EXPOSURE de
+JOIN #Codesets codesets on ((de.drug_concept_id = codesets.concept_id and codesets.codeset_id = 23));
 
 
 select de.* , row_number() over (PARTITION BY de.person_id ORDER BY de.drug_exposure_start_date, de.drug_exposure_id) as ordinal
-into #CodeSetData_20
+into #CodeSetData_24
 FROM @cdm_database_schema.DRUG_EXPOSURE de
-JOIN #Codesets codesets on ((de.drug_concept_id = codesets.concept_id and codesets.codeset_id = 20));
-
+JOIN #Codesets codesets on ((de.drug_concept_id = codesets.concept_id and codesets.codeset_id = 24));
 
 select de.* 
-into #CodeSetData_21
+into #CodeSetData_25
 FROM @cdm_database_schema.DRUG_EXPOSURE de
-JOIN #Codesets codesets on ((de.drug_concept_id = codesets.concept_id and codesets.codeset_id = 21));
+JOIN #Codesets codesets on ((de.drug_concept_id = codesets.concept_id and codesets.codeset_id = 25));
 
-
-select de.*
-into #CodeSetData_22
+SELECT de.*
+into #CodeSetData_26
 FROM @cdm_database_schema.DRUG_EXPOSURE de
-JOIN #Codesets cs on cs.codeset_id = 22 AND de.drug_concept_id = cs.concept_id;
-
+JOIN #Codesets cs on cs.codeset_id = 26 AND de.drug_concept_id = cs.concept_id;
 
 
 with primary_events (event_id, person_id, start_date, end_date, op_start_date, op_end_date, visit_occurrence_id) as
@@ -244,7 +240,7 @@ FROM
 select C.person_id, C.drug_exposure_id as event_id, C.drug_exposure_start_date as start_date,
        C.DRUG_EXPOSURE_END_DATE as end_date,
        C.visit_occurrence_id,C.drug_exposure_start_date as sort_date
-from #CodeSetData_20 C
+from #CodeSetData_23 C
 JOIN @cdm_database_schema.PERSON P on C.person_id = P.person_id
 WHERE C.days_supply >= 30
 AND YEAR(C.drug_exposure_start_date) - P.year_of_birth >= 30
@@ -263,7 +259,7 @@ FROM (-- Begin Drug Exposure Criteria
 select C.person_id, C.drug_exposure_id as event_id, C.drug_exposure_start_date as start_date,
        C.DRUG_EXPOSURE_END_DATE as end_date,
        C.visit_occurrence_id,C.drug_exposure_start_date as sort_date
-from #CodeSetData_20 C
+from #CodeSetData_23 C
 JOIN @cdm_database_schema.PERSON P on C.person_id = P.person_id
 WHERE C.days_supply >= 30
 AND YEAR(C.drug_exposure_start_date) - P.year_of_birth >= 30
@@ -283,7 +279,7 @@ FROM (-- Begin Drug Exposure Criteria
 select C.person_id, C.drug_exposure_id as event_id, C.drug_exposure_start_date as start_date,
        C.DRUG_EXPOSURE_END_DATE as end_date,
        C.visit_occurrence_id,C.drug_exposure_start_date as sort_date
-from #CodeSetData_20 C
+from #CodeSetData_23 C
 JOIN @cdm_database_schema.PERSON P on C.person_id = P.person_id
 WHERE C.days_supply >= 30
 AND YEAR(C.drug_exposure_start_date) - P.year_of_birth >= 30
@@ -320,7 +316,7 @@ UNION ALL
 select C.person_id, C.drug_exposure_id as event_id, C.drug_exposure_start_date as start_date,
        C.DRUG_EXPOSURE_END_DATE as end_date,
        C.visit_occurrence_id,C.drug_exposure_start_date as sort_date
-from #CodeSetData_8 C
+from #CodeSetData_24 C
 JOIN @cdm_database_schema.PERSON P on C.person_id = P.person_id
 WHERE C.days_supply >= 30
 AND YEAR(C.drug_exposure_start_date) - P.year_of_birth >= 30
@@ -372,7 +368,7 @@ JOIN (
   -- Begin Condition Occurrence Criteria
 SELECT C.person_id, C.condition_occurrence_id as event_id, C.condition_start_date as start_date, COALESCE(C.condition_end_date, DATEADD(day,1,C.condition_start_date)) as end_date,
   C.visit_occurrence_id, C.condition_start_date as sort_date
-from #CodeSetData_1 C
+FROM #CodeSetData_1 C
 
 
 -- End Condition Occurrence Criteria
@@ -418,7 +414,7 @@ JOIN (
 select C.person_id, C.drug_exposure_id as event_id, C.drug_exposure_start_date as start_date,
        C.DRUG_EXPOSURE_END_DATE as end_date,
        C.visit_occurrence_id,C.drug_exposure_start_date as sort_date
-from #CodeSetData_21 C
+from #CodeSetData_25 C
 
 
 -- End Drug Exposure Criteria
@@ -461,7 +457,7 @@ JOIN (
   -- Begin Condition Occurrence Criteria
 SELECT C.person_id, C.condition_occurrence_id as event_id, C.condition_start_date as start_date, COALESCE(C.condition_end_date, DATEADD(day,1,C.condition_start_date)) as end_date,
   C.visit_occurrence_id, C.condition_start_date as sort_date
-from #CodeSetData_13 C
+FROM #CodeSetData_13 C
 JOIN @cdm_database_schema.VISIT_OCCURRENCE V on C.visit_occurrence_id = V.visit_occurrence_id and C.person_id = V.person_id
 WHERE V.visit_concept_id in (9201,9203,262)
 -- End Condition Occurrence Criteria
@@ -480,7 +476,7 @@ JOIN (
   -- Begin Condition Occurrence Criteria
 SELECT C.person_id, C.condition_occurrence_id as event_id, C.condition_start_date as start_date, COALESCE(C.condition_end_date, DATEADD(day,1,C.condition_start_date)) as end_date,
   C.visit_occurrence_id, C.condition_start_date as sort_date
-from #CodeSetData_15 C
+FROM #CodeSetData_15 C
 JOIN @cdm_database_schema.VISIT_OCCURRENCE V on C.visit_occurrence_id = V.visit_occurrence_id and C.person_id = V.person_id
 WHERE V.visit_concept_id in (262,9203,9201)
 -- End Condition Occurrence Criteria
@@ -499,7 +495,7 @@ JOIN (
   -- Begin Condition Occurrence Criteria
 SELECT C.person_id, C.condition_occurrence_id as event_id, C.condition_start_date as start_date, COALESCE(C.condition_end_date, DATEADD(day,1,C.condition_start_date)) as end_date,
   C.visit_occurrence_id, C.condition_start_date as sort_date
-from #CodeSetData_14 C
+FROM #CodeSetData_14 C
 JOIN @cdm_database_schema.VISIT_OCCURRENCE V on C.visit_occurrence_id = V.visit_occurrence_id and C.person_id = V.person_id
 WHERE V.visit_concept_id in (9201,9203,262)
 -- End Condition Occurrence Criteria
@@ -518,7 +514,7 @@ JOIN (
   -- Begin Condition Occurrence Criteria
 SELECT C.person_id, C.condition_occurrence_id as event_id, C.condition_start_date as start_date, COALESCE(C.condition_end_date, DATEADD(day,1,C.condition_start_date)) as end_date,
   C.visit_occurrence_id, C.condition_start_date as sort_date
-from #CodeSetData_16 C
+FROM #CodeSetData_16 C
 JOIN @cdm_database_schema.VISIT_OCCURRENCE V on C.visit_occurrence_id = V.visit_occurrence_id and C.person_id = V.person_id
 WHERE V.visit_concept_id in (9201,9203,262)
 -- End Condition Occurrence Criteria
@@ -537,7 +533,7 @@ JOIN (
   -- Begin Condition Occurrence Criteria
 SELECT C.person_id, C.condition_occurrence_id as event_id, C.condition_start_date as start_date, COALESCE(C.condition_end_date, DATEADD(day,1,C.condition_start_date)) as end_date,
   C.visit_occurrence_id, C.condition_start_date as sort_date
-from #CodeSetData_18 C
+FROM #CodeSetData_18 C
 
 
 -- End Condition Occurrence Criteria
@@ -556,7 +552,7 @@ JOIN (
   -- Begin Condition Occurrence Criteria
 SELECT C.person_id, C.condition_occurrence_id as event_id, C.condition_start_date as start_date, COALESCE(C.condition_end_date, DATEADD(day,1,C.condition_start_date)) as end_date,
   C.visit_occurrence_id, C.condition_start_date as sort_date
-from #CodeSetData_19 C
+FROM #CodeSetData_19 C
 
 
 -- End Condition Occurrence Criteria
@@ -623,13 +619,13 @@ select person_id, drug_exposure_start_date, drug_exposure_end_date
 INTO #drugTarget
 FROM (
 	select de.PERSON_ID, DRUG_EXPOSURE_START_DATE, DRUG_EXPOSURE_END_DATE
-	FROM #CodeSetData_22 de
+	FROM #CodeSetData_26 de
 	JOIN ctePersons p on de.person_id = p.person_id
 
 	UNION ALL
 
 	select de.PERSON_ID, DRUG_EXPOSURE_START_DATE, DRUG_EXPOSURE_END_DATE
-	FROM #CodeSetData_22 de
+	FROM #CodeSetData_26 de
 	JOIN ctePersons p on de.person_id = p.person_id
 ) E
 ;
@@ -698,7 +694,7 @@ JOIN
 select C.person_id, C.drug_exposure_id as event_id, C.drug_exposure_start_date as start_date,
        C.DRUG_EXPOSURE_END_DATE as end_date,
        C.visit_occurrence_id,C.drug_exposure_start_date as sort_date
-from #CodeSetData_21 C
+from #CodeSetData_25 C
 
 
 -- End Drug Exposure Criteria
@@ -801,14 +797,13 @@ DROP TABLE #included_events;
 TRUNCATE TABLE #Codesets;
 DROP TABLE #Codesets;
 
+
+
 TRUNCATE TABLE #CodeSetData_1;
 DROP TABLE #CodeSetData_1;
 
 TRUNCATE TABLE #CodeSetData_2;
 DROP TABLE #CodeSetData_2;
-
-TRUNCATE TABLE #CodeSetData_8;
-DROP TABLE #CodeSetData_8;
 
 TRUNCATE TABLE #CodeSetData_13;
 DROP TABLE #CodeSetData_13;
@@ -828,11 +823,14 @@ DROP TABLE #CodeSetData_18;
 TRUNCATE TABLE #CodeSetData_19;
 DROP TABLE #CodeSetData_19;
 
-TRUNCATE TABLE #CodeSetData_20;
-DROP TABLE #CodeSetData_20;
+TRUNCATE TABLE #CodeSetData_23;
+DROP TABLE #CodeSetData_23;
 
-TRUNCATE TABLE #CodeSetData_21;
-DROP TABLE #CodeSetData_21;
+TRUNCATE TABLE #CodeSetData_24;
+DROP TABLE #CodeSetData_24;
 
-TRUNCATE TABLE #CodeSetData_22;
-DROP TABLE #CodeSetData_22;
+TRUNCATE TABLE #CodeSetData_25;
+DROP TABLE #CodeSetData_25;
+
+TRUNCATE TABLE #CodeSetData_26;
+DROP TABLE #CodeSetData_26;

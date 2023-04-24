@@ -197,46 +197,6 @@
           "isExcluded": false,
           "concept": {
             "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 43534751,
-            "STANDARD_CONCEPT": "C",
-            "CONCEPT_CODE": "A10BD15",
-            "VOCABULARY_ID": "ATC",
-            "CONCEPT_NAME": "metformin and dapagliflozin",
-            "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Classification",
-            "CONCEPT_CLASS_ID": "ATC 5th",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 1588671,
-            "STANDARD_CONCEPT": "C",
-            "CONCEPT_CODE": "A10BD20",
-            "VOCABULARY_ID": "ATC",
-            "CONCEPT_NAME": "metformin and empagliflozin",
-            "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Classification",
-            "CONCEPT_CLASS_ID": "ATC 5th",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
-        }
-      ]},
-      "name": "[JJH] MET + SGLT2",
-      "id": 8
-    },
-    {
-      "expression": {"items": [
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
             "CONCEPT_ID": 443614,
             "STANDARD_CONCEPT": "S",
             "CONCEPT_CODE": "431855005",
@@ -294,14 +254,14 @@
           "isExcluded": false,
           "concept": {
             "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 44785831,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "1488569",
-            "VOCABULARY_ID": "RxNorm",
-            "CONCEPT_NAME": "dapagliflozin 10 MG Oral Tablet",
+            "CONCEPT_ID": 1123673,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BK02",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "canagliflozin; oral",
             "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
@@ -311,14 +271,14 @@
           "isExcluded": false,
           "concept": {
             "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 45774754,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "1545658",
-            "VOCABULARY_ID": "RxNorm",
-            "CONCEPT_NAME": "empagliflozin 10 MG Oral Tablet",
+            "CONCEPT_ID": 1123890,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BK01",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "dapagliflozin; oral",
             "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
@@ -339,7 +299,7 @@
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
-          "includeDescendants": false
+          "includeDescendants": true
         },
         {
           "isExcluded": false,
@@ -356,45 +316,272 @@
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
-          "includeDescendants": false
+          "includeDescendants": true
         },
         {
           "isExcluded": false,
           "concept": {
             "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 715760,
-            "STANDARD_CONCEPT": "C",
-            "CONCEPT_CODE": "A10BK05",
-            "VOCABULARY_ID": "ATC",
-            "CONCEPT_NAME": "ipragliflozin",
+            "CONCEPT_ID": 42962859,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4689347",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "ipragliflozin Oral Tablet",
             "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Classification",
-            "CONCEPT_CLASS_ID": "ATC 5th",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
-          "includeDescendants": false
+          "includeDescendants": true
         },
         {
           "isExcluded": false,
           "concept": {
             "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 1123890,
-            "STANDARD_CONCEPT": "C",
-            "CONCEPT_CODE": "A10BK01",
-            "VOCABULARY_ID": "ATC",
-            "CONCEPT_NAME": "dapagliflozin; oral",
+            "CONCEPT_ID": 43009020,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4700446",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "ipragliflozin",
             "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Classification",
-            "CONCEPT_CLASS_ID": "ATC 5th",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
           "includeDescendants": false
         }
       ]},
-      "name": "[JJH] SGLT2 alone_230119",
-      "id": 12
+      "name": "[JJH] SGLT2 alone_230420",
+      "id": 15
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45893267,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BD16",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "metformin and canagliflozin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43534751,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BD15",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "metformin and dapagliflozin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1588671,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BD20",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "metformin and empagliflozin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 715784,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BD23",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "metformin and ertugliflozin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 793297,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "1992681",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "ertugliflozin / metformin Oral Product",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "Clinical Dose Group",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 793299,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1992683",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "ertugliflozin / metformin Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 36248374,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "1664311",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "empagliflozin / metformin Oral Product",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "Clinical Dose Group",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 46287679,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1664313",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "empagliflozin / metformin Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45775454,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1593057",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "dapagliflozin / metformin Extended Release Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 36248557,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "1592709",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "dapagliflozin / metformin Oral Product",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "Clinical Dose Group",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 36785134,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4773415",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "canagliflozin / Metformin Delayed Release Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 36247438,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "1545146",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "canagliflozin / metformin Oral Product",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "Clinical Dose Group",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45774709,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1545148",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "canagliflozin / metformin Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[JJH] MET + SGLT2_230420",
+      "id": 16
     },
     {
       "expression": {"items": [
@@ -515,7 +702,7 @@
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
-          "includeDescendants": false
+          "includeDescendants": true
         },
         {
           "isExcluded": false,
@@ -532,7 +719,7 @@
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
-          "includeDescendants": false
+          "includeDescendants": true
         },
         {
           "isExcluded": false,
@@ -906,7 +1093,7 @@
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
-          "includeDescendants": false
+          "includeDescendants": true
         },
         {
           "isExcluded": false,
@@ -923,7 +1110,7 @@
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
-          "includeDescendants": false
+          "includeDescendants": true
         },
         {
           "isExcluded": false,
@@ -1025,7 +1212,7 @@
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
-          "includeDescendants": false
+          "includeDescendants": true
         },
         {
           "isExcluded": false,
@@ -1110,7 +1297,7 @@
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
-          "includeDescendants": false
+          "includeDescendants": true
         },
         {
           "isExcluded": false,
@@ -1178,7 +1365,7 @@
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
-          "includeDescendants": false
+          "includeDescendants": true
         },
         {
           "isExcluded": false,
@@ -1246,7 +1433,7 @@
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
-          "includeDescendants": false
+          "includeDescendants": true
         },
         {
           "isExcluded": false,
@@ -1263,7 +1450,7 @@
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
-          "includeDescendants": false
+          "includeDescendants": true
         },
         {
           "isExcluded": false,
@@ -1331,7 +1518,7 @@
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
-          "includeDescendants": false
+          "includeDescendants": true
         },
         {
           "isExcluded": false,
@@ -1348,7 +1535,7 @@
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
-          "includeDescendants": false
+          "includeDescendants": true
         },
         {
           "isExcluded": false,
@@ -1382,7 +1569,7 @@
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
-          "includeDescendants": false
+          "includeDescendants": true
         },
         {
           "isExcluded": false,
@@ -1467,7 +1654,7 @@
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
-          "includeDescendants": false
+          "includeDescendants": true
         },
         {
           "isExcluded": false,
@@ -1518,7 +1705,7 @@
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
-          "includeDescendants": false
+          "includeDescendants": true
         },
         {
           "isExcluded": false,
@@ -1535,7 +1722,7 @@
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
-          "includeDescendants": false
+          "includeDescendants": true
         },
         {
           "isExcluded": false,
@@ -1552,7 +1739,7 @@
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
-          "includeDescendants": false
+          "includeDescendants": true
         },
         {
           "isExcluded": false,
@@ -1569,7 +1756,7 @@
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
-          "includeDescendants": false
+          "includeDescendants": true
         },
         {
           "isExcluded": false,
@@ -1589,8 +1776,8 @@
           "includeDescendants": false
         }
       ]},
-      "name": "[JJH] ADD except MET, SGLT2, MET+SGLT2, insulin alone_230119",
-      "id": 13
+      "name": "[JJH] ADD except MET, SGLT2, MET+SGLT2, insulin alone_230420",
+      "id": 17
     },
     {
       "expression": {"items": [
@@ -1598,79 +1785,11 @@
           "isExcluded": false,
           "concept": {
             "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 44785831,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "1488569",
-            "VOCABULARY_ID": "RxNorm",
-            "CONCEPT_NAME": "dapagliflozin 10 MG Oral Tablet",
-            "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Drug",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 45774754,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "1545658",
-            "VOCABULARY_ID": "RxNorm",
-            "CONCEPT_NAME": "empagliflozin 10 MG Oral Tablet",
-            "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Drug",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 1123740,
+            "CONCEPT_ID": 45893267,
             "STANDARD_CONCEPT": "C",
-            "CONCEPT_CODE": "A10BK03",
+            "CONCEPT_CODE": "A10BD16",
             "VOCABULARY_ID": "ATC",
-            "CONCEPT_NAME": "empagliflozin; oral",
-            "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Classification",
-            "CONCEPT_CLASS_ID": "ATC 5th",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 715887,
-            "STANDARD_CONCEPT": "C",
-            "CONCEPT_CODE": "A10BK04",
-            "VOCABULARY_ID": "ATC",
-            "CONCEPT_NAME": "ertugliflozin; oral",
-            "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Classification",
-            "CONCEPT_CLASS_ID": "ATC 5th",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 715760,
-            "STANDARD_CONCEPT": "C",
-            "CONCEPT_CODE": "A10BK05",
-            "VOCABULARY_ID": "ATC",
-            "CONCEPT_NAME": "ipragliflozin",
+            "CONCEPT_NAME": "metformin and canagliflozin",
             "DOMAIN_ID": "Drug",
             "STANDARD_CONCEPT_CAPTION": "Classification",
             "CONCEPT_CLASS_ID": "ATC 5th",
@@ -1717,6 +1836,210 @@
           "isExcluded": false,
           "concept": {
             "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 715784,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BD23",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "metformin and ertugliflozin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 793297,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "1992681",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "ertugliflozin / metformin Oral Product",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "Clinical Dose Group",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 793299,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1992683",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "ertugliflozin / metformin Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 36248374,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "1664311",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "empagliflozin / metformin Oral Product",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "Clinical Dose Group",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 46287679,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1664313",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "empagliflozin / metformin Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45775454,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1593057",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "dapagliflozin / metformin Extended Release Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 36248557,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "1592709",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "dapagliflozin / metformin Oral Product",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "Clinical Dose Group",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 36785134,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4773415",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "canagliflozin / Metformin Delayed Release Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 36247438,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "1545146",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "canagliflozin / metformin Oral Product",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "Clinical Dose Group",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45774709,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1545148",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "canagliflozin / metformin Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 715887,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BK04",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "ertugliflozin; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1123740,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BK03",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "empagliflozin; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
             "CONCEPT_ID": 1123890,
             "STANDARD_CONCEPT": "C",
             "CONCEPT_CODE": "A10BK01",
@@ -1728,15 +2051,66 @@
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1123673,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BK02",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "canagliflozin; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42962859,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4689347",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "ipragliflozin Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43009020,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4700446",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "ipragliflozin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
           "includeDescendants": false
         }
       ]},
-      "name": "[JJH] SGLT2 and MET+SGLT2 230119",
-      "id": 14
+      "name": "[JJH] SGLT2 and MET+SGLT2 230420",
+      "id": 18
     }
   ],
   "EndStrategy": {"CustomEra": {
-    "DrugCodesetId": 14,
+    "DrugCodesetId": 18,
     "DaysSupplyOverride": null,
     "GapDays": 30,
     "Offset": 30
@@ -1746,7 +2120,7 @@
     "OccurrenceEndDate": null,
     "CorrelatedCriteria": null,
     "DrugSourceConcept": null,
-    "CodesetId": 13,
+    "CodesetId": 17,
     "DrugTypeExclude": false,
     "Quantity": null,
     "DrugType": null,
@@ -1837,7 +2211,7 @@
             "OccurrenceEndDate": null,
             "CorrelatedCriteria": null,
             "DrugSourceConcept": null,
-            "CodesetId": 13,
+            "CodesetId": 17,
             "DrugTypeExclude": false,
             "Quantity": null,
             "DrugType": null,
@@ -1976,7 +2350,7 @@
           "Count": null
         },
         "DrugSourceConcept": null,
-        "CodesetId": 12,
+        "CodesetId": 15,
         "DrugTypeExclude": false,
         "Quantity": null,
         "DrugType": null,
@@ -2006,7 +2380,7 @@
         "OccurrenceEndDate": null,
         "CorrelatedCriteria": null,
         "DrugSourceConcept": null,
-        "CodesetId": 8,
+        "CodesetId": 16,
         "DrugTypeExclude": false,
         "Quantity": null,
         "DrugType": null,

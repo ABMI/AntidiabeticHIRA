@@ -646,7 +646,7 @@
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
-          "includeDescendants": false
+          "includeDescendants": true
         },
         {
           "isExcluded": false,
@@ -680,7 +680,7 @@
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
-          "includeDescendants": false
+          "includeDescendants": true
         },
         {
           "isExcluded": false,
@@ -816,7 +816,7 @@
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
-          "includeDescendants": false
+          "includeDescendants": true
         },
         {
           "isExcluded": false,
@@ -833,11 +833,266 @@
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19122137,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "596554",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "vildagliptin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
           "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1580747,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "593411",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "sitagliptin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 35198118,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4819483",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "trelagliptin succinate",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 35197921,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4819286",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "omarigliptin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40166035,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "857974",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "saxagliptin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40239216,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1100699",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "linagliptin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42960653,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4687152",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "anagliptin 100 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43013884,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1368001",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "alogliptin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43009089,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4700515",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "gemigliptin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43009070,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4700496",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "teneligliptin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43009051,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4700477",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "evogliptin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43008991,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4700417",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "anagliptin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43534752,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BH06",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "gemigliptin; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1502094,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BH07",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "evogliptin; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40251691,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BH05",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "linagliptin; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
         }
       ]},
-      "name": "[JJH] DPP-4 inh alone_230119",
-      "id": 23
+      "name": "[JJH] DPP-4 inh alone_230420",
+      "id": 27
     },
     {
       "expression": {"items": [
@@ -845,11 +1100,181 @@
           "isExcluded": false,
           "concept": {
             "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 43534749,
+            "CONCEPT_ID": 43013885,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1368383",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "alogliptin / metformin Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40139098,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "700516",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "metformin / sitagliptin Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42961497,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4687992",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "gemigliptin / Metformin Extended Release Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42960596,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4687095",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "Metformin / teneligliptin Extended Release Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42961328,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4687825",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "evogliptin / Metformin Extended Release Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42960651,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4687150",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "anagliptin / Metformin Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40231387,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1043561",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "metformin / saxagliptin Extended Release Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42705857,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1243018",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "linagliptin / metformin Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 36785176,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4773455",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "Linagliptin / Metformin Delayed Release Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21140122,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP351539",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "Metformin / vildagliptin Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21600772,
             "STANDARD_CONCEPT": "C",
-            "CONCEPT_CODE": "A10BD13",
+            "CONCEPT_CODE": "A10BD07",
             "VOCABULARY_ID": "ATC",
-            "CONCEPT_NAME": "metformin and alogliptin",
+            "CONCEPT_NAME": "metformin and sitagliptin",
             "DOMAIN_ID": "Drug",
             "STANDARD_CONCEPT_CAPTION": "Classification",
             "CONCEPT_CLASS_ID": "ATC 5th",
@@ -857,125 +1282,6 @@
           },
           "includeMapped": false,
           "includeDescendants": false
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 42961487,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "OMOP4687983",
-            "VOCABULARY_ID": "RxNorm Extension",
-            "CONCEPT_NAME": "gemigliptin 25 MG / Metformin 500 MG Extended Release Oral Tablet",
-            "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Drug",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 42961490,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "OMOP4687986",
-            "VOCABULARY_ID": "RxNorm Extension",
-            "CONCEPT_NAME": "gemigliptin 50 MG / Metformin 1000 MG Extended Release Oral Tablet",
-            "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Drug",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 42961494,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "OMOP4687989",
-            "VOCABULARY_ID": "RxNorm Extension",
-            "CONCEPT_NAME": "gemigliptin 50 MG / Metformin 500 MG Extended Release Oral Tablet",
-            "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Drug",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 45893491,
-            "STANDARD_CONCEPT": "C",
-            "CONCEPT_CODE": "A10BD18",
-            "VOCABULARY_ID": "ATC",
-            "CONCEPT_NAME": "metformin and gemigliptin",
-            "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Classification",
-            "CONCEPT_CLASS_ID": "ATC 5th",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 42708086,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "1243020",
-            "VOCABULARY_ID": "RxNorm",
-            "CONCEPT_NAME": "linagliptin 2.5 MG / metformin hydrochloride 1000 MG Oral Tablet",
-            "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Drug",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 42708090,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "1243034",
-            "VOCABULARY_ID": "RxNorm",
-            "CONCEPT_NAME": "linagliptin 2.5 MG / metformin hydrochloride 850 MG Oral Tablet",
-            "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Drug",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 42708088,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "1243027",
-            "VOCABULARY_ID": "RxNorm",
-            "CONCEPT_NAME": "linagliptin 2.5 MG / metformin hydrochloride 500 MG Oral Tablet",
-            "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Drug",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
         },
         {
           "isExcluded": false,
@@ -998,181 +1304,79 @@
           "isExcluded": false,
           "concept": {
             "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 40164891,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "861769",
-            "VOCABULARY_ID": "RxNorm",
-            "CONCEPT_NAME": "metformin hydrochloride 1000 MG / sitagliptin 50 MG Oral Tablet",
-            "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Drug",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 42708172,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "1243844",
-            "VOCABULARY_ID": "RxNorm",
-            "CONCEPT_NAME": "metformin hydrochloride 1000 MG / sitagliptin 50 MG Extended Release Oral Tablet",
-            "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Drug",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 36887702,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "OMOP988910",
-            "VOCABULARY_ID": "RxNorm Extension",
-            "CONCEPT_NAME": "Metformin 850 MG / sitagliptin 50 MG Oral Tablet",
-            "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Drug",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 40164922,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "861819",
-            "VOCABULARY_ID": "RxNorm",
-            "CONCEPT_NAME": "metformin hydrochloride 500 MG / sitagliptin 50 MG Oral Tablet",
-            "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Drug",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 42708176,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "1243849",
-            "VOCABULARY_ID": "RxNorm",
-            "CONCEPT_NAME": "metformin hydrochloride 500 MG / sitagliptin 50 MG Extended Release Oral Tablet",
-            "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Drug",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 42708168,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "1243834",
-            "VOCABULARY_ID": "RxNorm",
-            "CONCEPT_NAME": "metformin hydrochloride 1000 MG / sitagliptin 100 MG Extended Release Oral Tablet",
-            "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Drug",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 21081251,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "OMOP351542",
-            "VOCABULARY_ID": "RxNorm Extension",
-            "CONCEPT_NAME": "Metformin 850 MG / vildagliptin 50 MG Oral Tablet",
-            "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Drug",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 21169719,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "OMOP351557",
-            "VOCABULARY_ID": "RxNorm Extension",
-            "CONCEPT_NAME": "Metformin 1000 MG / vildagliptin 50 MG Oral Tablet",
-            "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Drug",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 43267262,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "OMOP538342",
-            "VOCABULARY_ID": "RxNorm Extension",
-            "CONCEPT_NAME": "Metformin 500 MG / vildagliptin 50 MG Oral Tablet",
-            "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Drug",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 42960593,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "OMOP4687092",
-            "VOCABULARY_ID": "RxNorm Extension",
-            "CONCEPT_NAME": "Metformin 1000 MG / teneligliptin 20 MG Extended Release Oral Tablet",
-            "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Drug",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 21600772,
+            "CONCEPT_ID": 43534749,
             "STANDARD_CONCEPT": "C",
-            "CONCEPT_CODE": "A10BD07",
+            "CONCEPT_CODE": "A10BD13",
             "VOCABULARY_ID": "ATC",
-            "CONCEPT_NAME": "metformin and sitagliptin",
+            "CONCEPT_NAME": "metformin and alogliptin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1501888,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BD22",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "metformin and evogliptin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45893491,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BD18",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "metformin and gemigliptin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40251677,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BD11",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "metformin and linagliptin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21600773,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BD08",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "metformin and vildagliptin",
             "DOMAIN_ID": "Drug",
             "STANDARD_CONCEPT_CAPTION": "Classification",
             "CONCEPT_CLASS_ID": "ATC 5th",
@@ -1182,8 +1386,8 @@
           "includeDescendants": false
         }
       ]},
-      "name": "[JJH] MET + DPP4_230119",
-      "id": 24
+      "name": "[JJH] MET+DPP4_230420",
+      "id": 28
     },
     {
       "expression": {"items": [
@@ -1321,7 +1525,7 @@
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
-          "includeDescendants": false
+          "includeDescendants": true
         },
         {
           "isExcluded": false,
@@ -1389,24 +1593,7 @@
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
-          "includeDescendants": false
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 21600774,
-            "STANDARD_CONCEPT": "C",
-            "CONCEPT_CODE": "A10BD09",
-            "VOCABULARY_ID": "ATC",
-            "CONCEPT_NAME": "pioglitazone and alogliptin",
-            "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Classification",
-            "CONCEPT_CLASS_ID": "ATC 5th",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
+          "includeDescendants": true
         },
         {
           "isExcluded": false,
@@ -1491,7 +1678,7 @@
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
-          "includeDescendants": false
+          "includeDescendants": true
         },
         {
           "isExcluded": false,
@@ -1508,7 +1695,7 @@
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
-          "includeDescendants": false
+          "includeDescendants": true
         },
         {
           "isExcluded": false,
@@ -1542,7 +1729,7 @@
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
-          "includeDescendants": false
+          "includeDescendants": true
         },
         {
           "isExcluded": false,
@@ -1627,7 +1814,7 @@
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
-          "includeDescendants": false
+          "includeDescendants": true
         },
         {
           "isExcluded": false,
@@ -1695,7 +1882,7 @@
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
-          "includeDescendants": false
+          "includeDescendants": true
         },
         {
           "isExcluded": false,
@@ -1712,7 +1899,7 @@
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
-          "includeDescendants": false
+          "includeDescendants": true
         },
         {
           "isExcluded": false,
@@ -1729,7 +1916,7 @@
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
-          "includeDescendants": false
+          "includeDescendants": true
         },
         {
           "isExcluded": false,
@@ -1763,7 +1950,7 @@
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
-          "includeDescendants": false
+          "includeDescendants": true
         },
         {
           "isExcluded": false,
@@ -1780,7 +1967,7 @@
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
-          "includeDescendants": false
+          "includeDescendants": true
         },
         {
           "isExcluded": false,
@@ -1831,7 +2018,7 @@
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
-          "includeDescendants": false
+          "includeDescendants": true
         },
         {
           "isExcluded": false,
@@ -1865,7 +2052,7 @@
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
-          "includeDescendants": false
+          "includeDescendants": true
         },
         {
           "isExcluded": false,
@@ -1882,7 +2069,7 @@
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
-          "includeDescendants": false
+          "includeDescendants": true
         },
         {
           "isExcluded": false,
@@ -1933,7 +2120,7 @@
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
-          "includeDescendants": false
+          "includeDescendants": true
         },
         {
           "isExcluded": false,
@@ -1950,7 +2137,7 @@
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
-          "includeDescendants": false
+          "includeDescendants": true
         },
         {
           "isExcluded": false,
@@ -1967,7 +2154,7 @@
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
-          "includeDescendants": false
+          "includeDescendants": true
         },
         {
           "isExcluded": false,
@@ -1984,7 +2171,7 @@
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
-          "includeDescendants": false
+          "includeDescendants": true
         },
         {
           "isExcluded": false,
@@ -2002,319 +2189,81 @@
           },
           "includeMapped": false,
           "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1123627,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BK",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "Sodium-glucose co-transporter 2 (SGLT2) inhibitors",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 4th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1501756,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10AE54",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "insulin glargine and lixisenatide; systemic",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 35158145,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4815143",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "ipragliflozin / sitagliptin Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 35157372,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4814379",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "ipragliflozin / sitagliptin Oral Tablet [Sujanu]",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Branded Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
         }
       ]},
-      "name": "[JJH] ADD except MET+DPP4 (except met, dpp4, insulin alone)_230119",
-      "id": 25
+      "name": "[JJH] ADD except MET, DPP4 ,MET+DPP4, insulin alone_230420",
+      "id": 29
     },
     {
       "expression": {"items": [
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 43534749,
-            "STANDARD_CONCEPT": "C",
-            "CONCEPT_CODE": "A10BD13",
-            "VOCABULARY_ID": "ATC",
-            "CONCEPT_NAME": "metformin and alogliptin",
-            "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Classification",
-            "CONCEPT_CLASS_ID": "ATC 5th",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 42961487,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "OMOP4687983",
-            "VOCABULARY_ID": "RxNorm Extension",
-            "CONCEPT_NAME": "gemigliptin 25 MG / Metformin 500 MG Extended Release Oral Tablet",
-            "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Drug",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 42961490,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "OMOP4687986",
-            "VOCABULARY_ID": "RxNorm Extension",
-            "CONCEPT_NAME": "gemigliptin 50 MG / Metformin 1000 MG Extended Release Oral Tablet",
-            "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Drug",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 42961494,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "OMOP4687989",
-            "VOCABULARY_ID": "RxNorm Extension",
-            "CONCEPT_NAME": "gemigliptin 50 MG / Metformin 500 MG Extended Release Oral Tablet",
-            "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Drug",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 45893491,
-            "STANDARD_CONCEPT": "C",
-            "CONCEPT_CODE": "A10BD18",
-            "VOCABULARY_ID": "ATC",
-            "CONCEPT_NAME": "metformin and gemigliptin",
-            "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Classification",
-            "CONCEPT_CLASS_ID": "ATC 5th",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 42708086,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "1243020",
-            "VOCABULARY_ID": "RxNorm",
-            "CONCEPT_NAME": "linagliptin 2.5 MG / metformin hydrochloride 1000 MG Oral Tablet",
-            "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Drug",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 42708090,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "1243034",
-            "VOCABULARY_ID": "RxNorm",
-            "CONCEPT_NAME": "linagliptin 2.5 MG / metformin hydrochloride 850 MG Oral Tablet",
-            "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Drug",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 42708088,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "1243027",
-            "VOCABULARY_ID": "RxNorm",
-            "CONCEPT_NAME": "linagliptin 2.5 MG / metformin hydrochloride 500 MG Oral Tablet",
-            "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Drug",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 40251676,
-            "STANDARD_CONCEPT": "C",
-            "CONCEPT_CODE": "A10BD10",
-            "VOCABULARY_ID": "ATC",
-            "CONCEPT_NAME": "metformin and saxagliptin",
-            "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Classification",
-            "CONCEPT_CLASS_ID": "ATC 5th",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 40164891,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "861769",
-            "VOCABULARY_ID": "RxNorm",
-            "CONCEPT_NAME": "metformin hydrochloride 1000 MG / sitagliptin 50 MG Oral Tablet",
-            "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Drug",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 42708172,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "1243844",
-            "VOCABULARY_ID": "RxNorm",
-            "CONCEPT_NAME": "metformin hydrochloride 1000 MG / sitagliptin 50 MG Extended Release Oral Tablet",
-            "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Drug",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 36887702,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "OMOP988910",
-            "VOCABULARY_ID": "RxNorm Extension",
-            "CONCEPT_NAME": "Metformin 850 MG / sitagliptin 50 MG Oral Tablet",
-            "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Drug",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 40164922,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "861819",
-            "VOCABULARY_ID": "RxNorm",
-            "CONCEPT_NAME": "metformin hydrochloride 500 MG / sitagliptin 50 MG Oral Tablet",
-            "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Drug",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 42708176,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "1243849",
-            "VOCABULARY_ID": "RxNorm",
-            "CONCEPT_NAME": "metformin hydrochloride 500 MG / sitagliptin 50 MG Extended Release Oral Tablet",
-            "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Drug",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 42708168,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "1243834",
-            "VOCABULARY_ID": "RxNorm",
-            "CONCEPT_NAME": "metformin hydrochloride 1000 MG / sitagliptin 100 MG Extended Release Oral Tablet",
-            "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Drug",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 21081251,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "OMOP351542",
-            "VOCABULARY_ID": "RxNorm Extension",
-            "CONCEPT_NAME": "Metformin 850 MG / vildagliptin 50 MG Oral Tablet",
-            "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Drug",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 21169719,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "OMOP351557",
-            "VOCABULARY_ID": "RxNorm Extension",
-            "CONCEPT_NAME": "Metformin 1000 MG / vildagliptin 50 MG Oral Tablet",
-            "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Drug",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 43267262,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "OMOP538342",
-            "VOCABULARY_ID": "RxNorm Extension",
-            "CONCEPT_NAME": "Metformin 500 MG / vildagliptin 50 MG Oral Tablet",
-            "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Drug",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": true
-        },
         {
           "isExcluded": false,
           "concept": {
@@ -2370,6 +2319,23 @@
           "isExcluded": false,
           "concept": {
             "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21600786,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BH03",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "saxagliptin; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
             "CONCEPT_ID": 40166041,
             "STANDARD_CONCEPT": "S",
             "CONCEPT_CODE": "858036",
@@ -2398,7 +2364,7 @@
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
-          "includeDescendants": false
+          "includeDescendants": true
         },
         {
           "isExcluded": false,
@@ -2472,23 +2438,6 @@
           "isExcluded": false,
           "concept": {
             "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 21600786,
-            "STANDARD_CONCEPT": "C",
-            "CONCEPT_CODE": "A10BH03",
-            "VOCABULARY_ID": "ATC",
-            "CONCEPT_NAME": "saxagliptin; oral",
-            "DOMAIN_ID": "Drug",
-            "STANDARD_CONCEPT_CAPTION": "Classification",
-            "CONCEPT_CLASS_ID": "ATC 5th",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
             "CONCEPT_ID": 43013924,
             "STANDARD_CONCEPT": "S",
             "CONCEPT_CODE": "1368006",
@@ -2551,7 +2500,7 @@
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
-          "includeDescendants": false
+          "includeDescendants": true
         },
         {
           "isExcluded": false,
@@ -2568,17 +2517,119 @@
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19122137,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "596554",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "vildagliptin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
           "includeDescendants": false
         },
         {
           "isExcluded": false,
           "concept": {
             "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 42960593,
+            "CONCEPT_ID": 1580747,
             "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "OMOP4687092",
+            "CONCEPT_CODE": "593411",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "sitagliptin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 35198118,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4819483",
             "VOCABULARY_ID": "RxNorm Extension",
-            "CONCEPT_NAME": "Metformin 1000 MG / teneligliptin 20 MG Extended Release Oral Tablet",
+            "CONCEPT_NAME": "trelagliptin succinate",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 35197921,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4819286",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "omarigliptin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40166035,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "857974",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "saxagliptin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40239216,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1100699",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "linagliptin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42960653,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4687152",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "anagliptin 100 MG Oral Tablet",
             "DOMAIN_ID": "Drug",
             "STANDARD_CONCEPT_CAPTION": "Standard",
             "CONCEPT_CLASS_ID": "Clinical Drug",
@@ -2586,6 +2637,159 @@
           },
           "includeMapped": false,
           "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43013884,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1368001",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "alogliptin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43009089,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4700515",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "gemigliptin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43009070,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4700496",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "teneligliptin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43009051,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4700477",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "evogliptin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43008991,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4700417",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "anagliptin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43534752,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BH06",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "gemigliptin; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1502094,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BH07",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "evogliptin; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40251691,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BH05",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "linagliptin; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21600773,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BD08",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "metformin and vildagliptin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
         },
         {
           "isExcluded": false,
@@ -2603,14 +2807,269 @@
           },
           "includeMapped": false,
           "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40251676,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BD10",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "metformin and saxagliptin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40251677,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BD11",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "metformin and linagliptin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45893491,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BD18",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "metformin and gemigliptin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1501888,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BD22",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "metformin and evogliptin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43534749,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A10BD13",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "metformin and alogliptin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21140122,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP351539",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "Metformin / vildagliptin Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42960596,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4687095",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "Metformin / teneligliptin Extended Release Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40139098,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "700516",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "metformin / sitagliptin Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40231387,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1043561",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "metformin / saxagliptin Extended Release Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42705857,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1243018",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "linagliptin / metformin Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 36785176,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4773455",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "Linagliptin / Metformin Delayed Release Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42961497,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4687992",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "gemigliptin / Metformin Extended Release Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42961328,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4687825",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "evogliptin / Metformin Extended Release Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42960651,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4687150",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "anagliptin / Metformin Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43013885,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1368383",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "alogliptin / metformin Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
         }
       ]},
-      "name": "[JJH] DPP4 and MET + DPP4_230119",
-      "id": 26
+      "name": "[JJH] DPP4 and MET + DPP4_230420",
+      "id": 30
     }
   ],
   "EndStrategy": {"CustomEra": {
-    "DrugCodesetId": 26,
+    "DrugCodesetId": 30,
     "DaysSupplyOverride": null,
     "GapDays": 30,
     "Offset": 30
@@ -2620,7 +3079,7 @@
     "OccurrenceEndDate": null,
     "CorrelatedCriteria": null,
     "DrugSourceConcept": null,
-    "CodesetId": 25,
+    "CodesetId": 29,
     "DrugTypeExclude": false,
     "Quantity": null,
     "DrugType": null,
@@ -2711,7 +3170,7 @@
             "OccurrenceEndDate": null,
             "CorrelatedCriteria": null,
             "DrugSourceConcept": null,
-            "CodesetId": 25,
+            "CodesetId": 29,
             "DrugTypeExclude": false,
             "Quantity": null,
             "DrugType": null,
@@ -3156,7 +3615,7 @@
           "Count": null
         },
         "DrugSourceConcept": null,
-        "CodesetId": 23,
+        "CodesetId": 27,
         "DrugTypeExclude": false,
         "Quantity": null,
         "DrugType": null,
@@ -3186,7 +3645,7 @@
         "OccurrenceEndDate": null,
         "CorrelatedCriteria": null,
         "DrugSourceConcept": null,
-        "CodesetId": 24,
+        "CodesetId": 28,
         "DrugTypeExclude": false,
         "Quantity": null,
         "DrugType": null,
