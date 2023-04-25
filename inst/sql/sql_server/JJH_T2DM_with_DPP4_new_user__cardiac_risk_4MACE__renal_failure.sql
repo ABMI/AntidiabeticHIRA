@@ -402,7 +402,7 @@ JOIN (
   -- Begin Condition Occurrence Criteria
 SELECT C.person_id, C.condition_occurrence_id as event_id, C.condition_start_date as start_date, COALESCE(C.condition_end_date, DATEADD(day,1,C.condition_start_date)) as end_date,
   C.visit_occurrence_id, C.condition_start_date as sort_date
-FROM into #CodeSetData_1 C
+FROM #CodeSetData_1 C
 
 
 -- End Condition Occurrence Criteria
@@ -448,7 +448,7 @@ JOIN (
 select C.person_id, C.drug_exposure_id as event_id, C.drug_exposure_start_date as start_date,
        C.DRUG_EXPOSURE_END_DATE as end_date,
        C.visit_occurrence_id,C.drug_exposure_start_date as sort_date
-from into #CodeSetData_30 C
+from #CodeSetData_30 C
 
 
 -- End Drug Exposure Criteria
@@ -491,7 +491,7 @@ JOIN (
   -- Begin Condition Occurrence Criteria
 SELECT C.person_id, C.condition_occurrence_id as event_id, C.condition_start_date as start_date, COALESCE(C.condition_end_date, DATEADD(day,1,C.condition_start_date)) as end_date,
   C.visit_occurrence_id, C.condition_start_date as sort_date
-FROM into #CodeSetData_13 C
+FROM #CodeSetData_13 C
 JOIN @cdm_database_schema.VISIT_OCCURRENCE V on C.visit_occurrence_id = V.visit_occurrence_id and C.person_id = V.person_id
 WHERE V.visit_concept_id in (9201,9203,262)
 -- End Condition Occurrence Criteria
