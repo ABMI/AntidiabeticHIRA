@@ -13,11 +13,11 @@
       "isExcluded": false,
       "concept": {
         "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_ID": 197320,
+        "CONCEPT_ID": 46271022,
         "STANDARD_CONCEPT": "S",
-        "CONCEPT_CODE": "14669001",
+        "CONCEPT_CODE": "709044004",
         "VOCABULARY_ID": "SNOMED",
-        "CONCEPT_NAME": "Acute renal failure syndrome",
+        "CONCEPT_NAME": "Chronic kidney disease",
         "DOMAIN_ID": "Condition",
         "STANDARD_CONCEPT_CAPTION": "Standard",
         "CONCEPT_CLASS_ID": "Clinical Finding",
@@ -26,8 +26,8 @@
       "includeMapped": false,
       "includeDescendants": true
     }]},
-    "name": "Acute kidney injury",
-    "id": 0
+    "name": "chronic renal disease",
+    "id": 3
   }],
   "EndStrategy": {"DateOffset": {
     "DateField": "StartDate",
@@ -42,7 +42,7 @@
       "OccurrenceEndDate": null,
       "CorrelatedCriteria": null,
       "ConditionTypeExclude": false,
-      "CodesetId": 0,
+      "CodesetId": 3,
       "ProviderSpecialty": null,
       "Gender": null,
       "VisitType": null,

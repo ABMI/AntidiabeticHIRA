@@ -23,10 +23,9 @@ atlasId,atlasName,cohortId,name
 2270,[JJH] SJS_safety,2270,JJH_SJS_safety
 2271,[JJH] Amputation_safety,2271,JJH_Amputation_safety
 2272,[JJH] Pancreatitis_safety,2272,JJH_Pancreatitis_safety
-2274,[JJH] Acute kidney injury_safety,2274,JJH_Acute_kidney_injury_safety
+2274,[JJH] Acute kidney injury,2274,JJH_Acute_kidney_injury
 2275,[JJH] fatigue_safety,2275,JJH_fatigue_safety
-2485,[JJH] acute renal failure,2485,JJH_acute_renal_failure
-2486,[JJH] chronic renal failure,2486,JJH_chronic_renal_failure
+2486,[JJH] chronic kidney disease,2486,JJH_chronic_kidney_disease
 2487,[JJH] end stage renal disease,2487,JJH_end_stage_renal_disease
 2488,[JJH] Hemodialysis,2488,JJH_Hemodialysis
 2489,[JJH] Kidney transplantation,2489,JJH_Kidney_transplantation
@@ -45,6 +44,7 @@ atlasId,atlasName,cohortId,name
 2988,[JJH] sudden cardiac death,2988,JJH_sudden_cardiac_death
 2989,[JJH] stroke,2989,JJH_stroke
 2992,[JJH] hypokalemia,2992,JJH_hypokalemia
+3102,[JJH] kidney failure,3102,JJH_kidney_failure
 2483,[JJH] T2DM with SGLT-2i new user + cardiac risk (3-MACE),2483,JJH_T2DM_with_SGLT2i_new_user__cardiac_risk_3MACE
 2484,[JJH] T2DM with DPP-4 new user + cardiac risk (3-MACE),2484,JJH_T2DM_with_DPP4_new_user__cardiac_risk_3MACE
 2481,[JJH] T2DM with SGLT-2i new user + cardiac risk (3-MACE + renal failure),2481,JJH_T2DM_with_SGLT2i_new_user__cardiac_risk_3MACE__renal_failure
@@ -53,10 +53,11 @@ atlasId,atlasName,cohortId,name
 2478,[JJH] T2DM with DPP-4 new user + cardiac risk (4-MACE),2478,JJH_T2DM_with_DPP4_new_user__cardiac_risk_4MACE
 2479,[JJH] T2DM with SGLT-2i new user + cardiac risk (4-MACE + renal failure),2479,JJH_T2DM_with_SGLT2i_new_user__cardiac_risk_4MACE__renal_failure
 2480,[JJH] T2DM with DPP-4 new user + cardiac risk (4-MACE + renal failure),2480,JJH_T2DM_with_DPP4_new_user__cardiac_risk_4MACE__renal_failure
-2260,[JJH] T2DM with SGLT-2i new user + CKD stage under 4,2260,JJH_T2DM_with_SGLT2i_new_user__CKD_stage_under_4
-2262,[JJH] T2DM with DPP-4i new user + CKD stage under 4,2262,JJH_T2DM_with_DPP4i_new_user__CKD_stage_under_4
-2490,[JJH] hospitalization by renal failure,2490,JJH_hospitalization_by_renal_failure
-2261,[JJH] T2DM with SGLT-2i new user + CKD stage over 4,2261,JJH_T2DM_with_SGLT2i_new_user__CKD_stage_over_4
-2263,[JJH] T2DM with DPP-4i new user + CKD stage over 4,2263,JJH_T2DM_with_DPP4i_new_user__CKD_stage_over_4
 2772,[JJH] T2DM with SGLT-2i new user + renal failure,2772,JJH_T2DM_with_SGLT2i_new_user__renal_failure
 2771,[JJH] T2DM with DPP-4 new user + renal failure,2771,JJH_T2DM_with_DPP4_new_user__renal_failure
+3100,[JJH] T2DM with SGLT-2i new user + chronic kidney disease,3100,JJH_T2DM_with_SGLT2i_new_user__chronic_kidney_disease
+3101,[JJH] T2DM with DPP-4 new user + chronic kidney disease,3101,JJH_T2DM_with_DPP4_new_user__chronic_kidney_disease
+3098,[JJH] T2DM with SGLT-2i new user + acute kidney disease,3098,JJH_T2DM_with_SGLT2i_new_user__acute_kidney_disease
+3099,[JJH] T2DM with DPP-4 new user + acute kidney disease,3099,JJH_T2DM_with_DPP4_new_user__acute_kidney_disease
+3096,[JJH] T2DM with SGLT-2i new user + kidney disease,3096,JJH_T2DM_with_SGLT2i_new_user__kidney_disease
+3097,[JJH] T2DM with DPP-4 new user + kidney disease,3097,JJH_T2DM_with_DPP4_new_user__kidney_disease

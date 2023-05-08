@@ -5,34 +5,24 @@ CREATE TABLE #Codesets (
 ;
 
 INSERT INTO #Codesets (codeset_id, concept_id)
-SELECT 0 as codeset_id, c.concept_id FROM (select distinct I.concept_id FROM
+SELECT 3 as codeset_id, c.concept_id FROM (select distinct I.concept_id FROM
 ( 
-  select concept_id from @vocabulary_database_schema.CONCEPT where concept_id in (198185)
+  select concept_id from @vocabulary_database_schema.CONCEPT where concept_id in (46271022)
 UNION  select c.concept_id
   from @vocabulary_database_schema.CONCEPT c
   join @vocabulary_database_schema.CONCEPT_ANCESTOR ca on c.concept_id = ca.descendant_concept_id
-  and ca.ancestor_concept_id in (198185)
+  and ca.ancestor_concept_id in (46271022)
   and c.invalid_reason is null
-
-) I
-) C UNION ALL 
-SELECT 2 as codeset_id, c.concept_id FROM (select distinct I.concept_id FROM
-( 
-  select concept_id from @vocabulary_database_schema.CONCEPT where concept_id in (443601,443597,443612,443611,443614)
 
 ) I
 ) C
 ;
 
-SELECT co.* 
-into #CodeSetData_0
-FROM @cdm_database_schema.condition_occurrence co
-JOIN #Codesets codesets on ((co.condition_concept_id = codesets.concept_id and codesets.codeset_id = 0));
 
 SELECT co.* 
-into #CodeSetData_2
-FROM @cdm_database_schema.condition_occurrence co
-JOIN #Codesets codesets on ((co.condition_concept_id = codesets.concept_id and codesets.codeset_id = 2));
+into #CodeSetData_3
+FROM @cdm_database_schema.CONDITION_OCCURRENCE co
+JOIN #Codesets codesets on ((co.condition_concept_id = codesets.concept_id and codesets.codeset_id = 3));
 
 with primary_events (event_id, person_id, start_date, end_date, op_start_date, op_end_date, visit_occurrence_id) as
 (
@@ -48,16 +38,7 @@ FROM
   -- Begin Condition Occurrence Criteria
 SELECT C.person_id, C.condition_occurrence_id as event_id, C.condition_start_date as start_date, COALESCE(C.condition_end_date, DATEADD(day,1,C.condition_start_date)) as end_date,
   C.visit_occurrence_id, C.condition_start_date as sort_date
-FROM #CodeSetData_0 C
-
-
--- End Condition Occurrence Criteria
-
-UNION ALL
--- Begin Condition Occurrence Criteria
-SELECT C.person_id, C.condition_occurrence_id as event_id, C.condition_start_date as start_date, COALESCE(C.condition_end_date, DATEADD(day,1,C.condition_start_date)) as end_date,
-  C.visit_occurrence_id, C.condition_start_date as sort_date
-FROM #CodeSetData_2 C
+FROM #CodeSetData_3 C
 
 
 
@@ -219,8 +200,5 @@ DROP TABLE #included_events;
 TRUNCATE TABLE #Codesets;
 DROP TABLE #Codesets;
 
-TRUNCATE TABLE #CodeSetData_0;
-DROP TABLE #CodeSetData_0;
-
-TRUNCATE TABLE #CodeSetData_2;
-DROP TABLE #CodeSetData_2;
+TRUNCATE TABLE #CodeSetData_3;
+DROP TABLE #CodeSetData_3;

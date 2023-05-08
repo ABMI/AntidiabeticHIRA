@@ -197,46 +197,6 @@
           "isExcluded": false,
           "concept": {
             "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 443612,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "431857002",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Chronic kidney disease stage 4",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 443611,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "433146000",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Chronic kidney disease stage 5",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
-        }
-      ]},
-      "name": "[JJH] CKD stage more than 4",
-      "id": 12
-    },
-    {
-      "expression": {"items": [
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
             "CONCEPT_ID": 1123673,
             "STANDARD_CONCEPT": "C",
             "CONCEPT_CODE": "A10BK02",
@@ -337,7 +297,7 @@
         }
       ]},
       "name": "[JJH] SGLT2 alone_230420",
-      "id": 16
+      "id": 23
     },
     {
       "expression": {"items": [
@@ -564,7 +524,7 @@
         }
       ]},
       "name": "[JJH] MET + SGLT2_230420",
-      "id": 17
+      "id": 24
     },
     {
       "expression": {"items": [
@@ -1760,7 +1720,7 @@
         }
       ]},
       "name": "[JJH] ADD except MET, SGLT2, MET+SGLT2, insulin alone_230420",
-      "id": 18
+      "id": 25
     },
     {
       "expression": {"items": [
@@ -2089,11 +2049,32 @@
         }
       ]},
       "name": "[JJH] SGLT2 and MET+SGLT2 230420",
-      "id": 19
+      "id": 26
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 46271022,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "709044004",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Chronic kidney disease",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "[PCH] Chronic renal failure",
+      "id": 28
     }
   ],
   "EndStrategy": {"CustomEra": {
-    "DrugCodesetId": 19,
+    "DrugCodesetId": 26,
     "DaysSupplyOverride": null,
     "GapDays": 30,
     "Offset": 30
@@ -2103,7 +2084,7 @@
     "OccurrenceEndDate": null,
     "CorrelatedCriteria": null,
     "DrugSourceConcept": null,
-    "CodesetId": 18,
+    "CodesetId": 25,
     "DrugTypeExclude": false,
     "Quantity": null,
     "DrugType": null,
@@ -2194,7 +2175,7 @@
             "OccurrenceEndDate": null,
             "CorrelatedCriteria": null,
             "DrugSourceConcept": null,
-            "CodesetId": 18,
+            "CodesetId": 25,
             "DrugTypeExclude": false,
             "Quantity": null,
             "DrugType": null,
@@ -2249,7 +2230,7 @@
             "OccurrenceEndDate": null,
             "CorrelatedCriteria": null,
             "ConditionTypeExclude": false,
-            "CodesetId": 12,
+            "CodesetId": 28,
             "ProviderSpecialty": null,
             "Gender": null,
             "VisitType": null,
@@ -2268,12 +2249,12 @@
             "Count": 1
           }
         }],
-        "Type": "ALL",
+        "Type": "ANY",
         "DemographicCriteriaList": [],
         "Groups": [],
         "Count": null
       },
-      "name": "CKD stage over 4",
+      "name": "chronic kidney disease",
       "description": null
     }
   ],
@@ -2333,7 +2314,7 @@
           "Count": null
         },
         "DrugSourceConcept": null,
-        "CodesetId": 16,
+        "CodesetId": 23,
         "DrugTypeExclude": false,
         "Quantity": null,
         "DrugType": null,
@@ -2363,7 +2344,7 @@
         "OccurrenceEndDate": null,
         "CorrelatedCriteria": null,
         "DrugSourceConcept": null,
-        "CodesetId": 17,
+        "CodesetId": 24,
         "DrugTypeExclude": false,
         "Quantity": null,
         "DrugType": null,
