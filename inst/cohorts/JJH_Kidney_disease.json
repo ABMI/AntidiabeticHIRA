@@ -1,0 +1,694 @@
+{
+  "ExpressionLimit": {"Type": "All"},
+  "CollapseSettings": {
+    "CollapseType": "ERA",
+    "EraPad": 0
+  },
+  "CensorWindow": {
+    "StartDate": null,
+    "EndDate": null
+  },
+  "ConceptSets": [{
+    "expression": {"items": [
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 4030518,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "236423003",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Renal impairment",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 35624383,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "767094002",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Disorder of renal parenchyma",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 193253,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "52845002",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Nephritis",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 36716270,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "722223000",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Cyst of kidney",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": true,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45757772,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "369071000119105",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Congenital renal cyst",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": true,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 4173195,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "276585000",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Congenital nephritis",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": true,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 4172011,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "48796009",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Congenital nephrotic syndrome",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": true,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 4149398,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "268854008",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Congenital renal failure",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": true,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 40481595,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "444976001",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Congenital hemolytic uremic syndrome",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": true,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 4244939,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "92975004",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Congenital absence of renal papilla",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": true,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 4126105,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "236466005",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Congenital Fanconi syndrome",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": true,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 4262564,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "361147005",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Congenital hypoplasia of renal papilla",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": true,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 37111021,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "725592009",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Congenital membranous nephropathy due to maternal anti-neutral endopeptidase alloimmunization",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": true,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 36717532,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "722118005",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Congenital nephrotic syndrome due to congenital infection",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": true,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 36717553,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "722369003",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Congenital nephrotic syndrome due to diffuse mesangial sclerosis",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": true,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 4030510,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "236384008",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Congenital nephrotic syndrome with focal glomerulosclerosis",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": true,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 37116655,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "733453005",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Congenital nephrotic syndrome, interstitial lung disease, epidermolysis bullosa syndrome",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": true,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 439694,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "194781004",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Hypertensive heart and renal disease with both (congestive) heart failure and renal failure",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": true,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 4161421,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "399340005",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Hereditary nephritis",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": true,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 36717238,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "722948009",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Glomerular disorder due to non-neuropathic heredofamilial amyloidosis",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": true,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 35622779,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "764961009",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Hereditary clear cell renal cell carcinoma",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": true,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45757746,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "367521000119108",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Hereditary diffuse crescentic glomerulonephritis",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": true,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45757750,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "367571000119109",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Hereditary focal and segmental glomerular lesions",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": true,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45757751,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "367581000119107",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Hereditary minor glomerular abnormality",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": true,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 4265337,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "61165007",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Hereditary nephrogenic diabetes insipidus",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": true,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 4302592,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "78815005",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Hereditary tubulointerstitial disorder",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": true,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 4163736,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "399190000",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Non-progressive hereditary glomerulonephritis",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": true,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 4128203,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "236441006",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Acquired renal cyst with neoplastic change",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": true,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 4126428,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "236442004",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Acquired renal cyst without neoplastic change",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": true,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 36717534,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "722149000",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Chronic kidney disease following excision of renal neoplasm",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": true,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 4059590,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "197738008",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Glomerular disorders in neoplastic diseases",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": true,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 4059128,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "197742006",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Renal tubulo-interstitial disorders in neoplastic diseases",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 40483287,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "443820000",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Disorder of kidney and/or ureter",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 37399735,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "295121000119101",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Nephrosis co-occurrent and due to systemic lupus erythematosus",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 198124,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "90708001",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Kidney disease",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 4309006,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "213150003",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Kidney transplant failure and rejection",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 37399017,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "716864001",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Hemorrhagic fever with renal syndrome",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 443731,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "420279001",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Renal disorder due to type 2 diabetes mellitus",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      }
+    ]},
+    "name": "[JJH] kidney disease",
+    "id": 2
+  }],
+  "EndStrategy": {"DateOffset": {
+    "DateField": "StartDate",
+    "Offset": 0
+  }},
+  "cdmVersionRange": ">=5.0.0",
+  "CensoringCriteria": [],
+  "QualifiedLimit": {"Type": "First"},
+  "InclusionRules": [],
+  "PrimaryCriteria": {
+    "CriteriaList": [{"ConditionOccurrence": {
+      "OccurrenceEndDate": null,
+      "CorrelatedCriteria": null,
+      "ConditionTypeExclude": false,
+      "CodesetId": 2,
+      "ProviderSpecialty": null,
+      "Gender": null,
+      "VisitType": null,
+      "First": null,
+      "OccurrenceStartDate": null,
+      "ConditionType": null,
+      "ConditionSourceConcept": null,
+      "ConditionStatus": null,
+      "StopReason": null,
+      "Age": null
+    }}],
+    "PrimaryCriteriaLimit": {"Type": "All"},
+    "ObservationWindow": {
+      "PostDays": 0,
+      "PriorDays": 0
+    }
+  }
+}

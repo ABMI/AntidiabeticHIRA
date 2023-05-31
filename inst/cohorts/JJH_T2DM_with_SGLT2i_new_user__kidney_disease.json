@@ -2596,6 +2596,108 @@
           },
           "includeMapped": false,
           "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40483287,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "443820000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Disorder of kidney and/or ureter",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 37399735,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "295121000119101",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Nephrosis co-occurrent and due to systemic lupus erythematosus",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 198124,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "90708001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Kidney disease",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4309006,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "213150003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Kidney transplant failure and rejection",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 37399017,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "716864001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Hemorrhagic fever with renal syndrome",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 443731,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "420279001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Renal disorder due to type 2 diabetes mellitus",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
         }
       ]},
       "name": "[JJH] kidney disease",

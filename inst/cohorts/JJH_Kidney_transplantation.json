@@ -8,27 +8,69 @@
     "StartDate": null,
     "EndDate": null
   },
-  "ConceptSets": [{
-    "expression": {"items": [{
-      "isExcluded": false,
-      "concept": {
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_ID": 42357561,
-        "STANDARD_CONCEPT": "N",
-        "CONCEPT_CODE": "R3280",
-        "VOCABULARY_ID": "EDI",
-        "CONCEPT_NAME": "Renal Transplantation",
-        "DOMAIN_ID": "Procedure",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "CONCEPT_CLASS_ID": "Proc Hierarchy",
-        "INVALID_REASON": "V"
-      },
-      "includeMapped": false,
-      "includeDescendants": true
-    }]},
-    "name": "[JJH] renal transplantation",
-    "id": 0
-  }],
+  "ConceptSets": [
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42357561,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "R3280",
+            "VOCABULARY_ID": "EDI",
+            "CONCEPT_NAME": "Renal Transplantation",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "Proc Hierarchy",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4197300,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "313030004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Donor renal transplantation",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[JJH] renal transplantation",
+      "id": 0
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 42539502,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "737295003",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Transplanted kidney present",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "kidney transplantation_condition",
+      "id": 1
+    }
+  ],
   "EndStrategy": {"DateOffset": {
     "DateField": "StartDate",
     "Offset": 0
@@ -38,21 +80,39 @@
   "QualifiedLimit": {"Type": "First"},
   "InclusionRules": [],
   "PrimaryCriteria": {
-    "CriteriaList": [{"ProcedureOccurrence": {
-      "ProcedureType": null,
-      "CorrelatedCriteria": null,
-      "CodesetId": 0,
-      "ProcedureSourceConcept": null,
-      "Quantity": null,
-      "ProviderSpecialty": null,
-      "Gender": null,
-      "ProcedureTypeExclude": false,
-      "VisitType": null,
-      "First": null,
-      "OccurrenceStartDate": null,
-      "Modifier": null,
-      "Age": null
-    }}],
+    "CriteriaList": [
+      {"ProcedureOccurrence": {
+        "ProcedureType": null,
+        "CorrelatedCriteria": null,
+        "CodesetId": 0,
+        "ProcedureSourceConcept": null,
+        "Quantity": null,
+        "ProviderSpecialty": null,
+        "Gender": null,
+        "ProcedureTypeExclude": false,
+        "VisitType": null,
+        "First": null,
+        "OccurrenceStartDate": null,
+        "Modifier": null,
+        "Age": null
+      }},
+      {"ConditionOccurrence": {
+        "OccurrenceEndDate": null,
+        "CorrelatedCriteria": null,
+        "ConditionTypeExclude": false,
+        "CodesetId": 1,
+        "ProviderSpecialty": null,
+        "Gender": null,
+        "VisitType": null,
+        "First": null,
+        "OccurrenceStartDate": null,
+        "ConditionType": null,
+        "ConditionSourceConcept": null,
+        "ConditionStatus": null,
+        "StopReason": null,
+        "Age": null
+      }}
+    ],
     "PrimaryCriteriaLimit": {"Type": "All"},
     "ObservationWindow": {
       "PostDays": 0,

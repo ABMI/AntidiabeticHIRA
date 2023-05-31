@@ -130,6 +130,48 @@
       ]},
       "name": "CKD stage 5 & ESRD",
       "id": 3
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 42539502,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "737295003",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Transplanted kidney present",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "kidney transplantation_condition",
+      "id": 4
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 4019967,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "105502003",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Dependence on renal dialysis",
+          "DOMAIN_ID": "Observation",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "dialysis_observation",
+      "id": 5
     }
   ],
   "cdmVersionRange": ">=5.0.0",
@@ -197,6 +239,40 @@
         "ConditionSourceConcept": null,
         "ConditionStatus": null,
         "StopReason": null,
+        "Age": null
+      }},
+      {"ConditionOccurrence": {
+        "OccurrenceEndDate": null,
+        "CorrelatedCriteria": null,
+        "ConditionTypeExclude": false,
+        "CodesetId": 4,
+        "ProviderSpecialty": null,
+        "Gender": null,
+        "VisitType": null,
+        "First": null,
+        "OccurrenceStartDate": null,
+        "ConditionType": null,
+        "ConditionSourceConcept": null,
+        "ConditionStatus": null,
+        "StopReason": null,
+        "Age": null
+      }},
+      {"Observation": {
+        "ValueAsConcept": null,
+        "ObservationType": null,
+        "CorrelatedCriteria": null,
+        "ObservationTypeExclude": false,
+        "ValueAsString": null,
+        "CodesetId": 5,
+        "ProviderSpecialty": null,
+        "Gender": null,
+        "Unit": null,
+        "ObservationSourceConcept": null,
+        "VisitType": null,
+        "ValueAsNumber": null,
+        "Qualifier": null,
+        "First": null,
+        "OccurrenceStartDate": null,
         "Age": null
       }}
     ],
