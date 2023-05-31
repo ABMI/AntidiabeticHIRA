@@ -47,6 +47,9 @@ atlasId,atlasName,cohortId,name
 3102,[JJH] kidney failure,3102,JJH_kidney_failure
 3241,[JJH] Dialysis,3241,JJH_Dialysis
 3242,[JJH] Kidney disease,3242,JJH_Kidney_disease
+3243,[JJH] CRRT_hira,3243,JJH_CRRT_hira
+3244,[JJH] peritoneal dialysis,3244,JJH_peritoneal_dialysis
+3245,[JJH] Dialysis and CRRT,3245,JJH_Dialysis_and_CRRT
 2483,[JJH] T2DM with SGLT-2i new user + cardiac risk (3-MACE),2483,JJH_T2DM_with_SGLT2i_new_user__cardiac_risk_3MACE
 2484,[JJH] T2DM with DPP-4 new user + cardiac risk (3-MACE),2484,JJH_T2DM_with_DPP4_new_user__cardiac_risk_3MACE
 2481,[JJH] T2DM with SGLT-2i new user + cardiac risk (3-MACE + renal failure),2481,JJH_T2DM_with_SGLT2i_new_user__cardiac_risk_3MACE__renal_failure
