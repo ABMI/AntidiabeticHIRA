@@ -92,6 +92,8 @@ runCohortMethod <- function(connectionDetails,
     dir.create(balanceFolder)
   }
   subset <- results[results$outcomeId %in% outcomesOfInterest,]
+  library(dplyr)
+  subset <- subset %>% mutate(strataFile = ifelse(analysisId > 6  & targetId == 3096 & comparatorId == 3097 & outcomeId == 3242,"",strataFile))
   subset <- subset[subset$strataFile != "", ]
   if (nrow(subset) > 0) {
     subset <- split(subset, seq(nrow(subset)))
